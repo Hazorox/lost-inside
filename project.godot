@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="no-name-yet"
+config/name="Lost Inside"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
