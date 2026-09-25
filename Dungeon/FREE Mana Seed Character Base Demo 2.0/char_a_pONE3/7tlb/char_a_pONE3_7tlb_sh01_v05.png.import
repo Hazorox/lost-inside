@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yjasfn3g5k6b"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+uid="uid://bt4e25de6wqlv"
+path="res://.godot/imported/char_a_pONE3_7tlb_sh01_v05.png-2f169e8f7a4f03a3fbe498cdd434cd01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+source_file="res://Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/7tlb/char_a_pONE3_7tlb_sh01_v05.png"
+dest_files=["res://.godot/imported/char_a_pONE3_7tlb_sh01_v05.png-2f169e8f7a4f03a3fbe498cdd434cd01.ctex"]
 
 [params]
 
@@ -41,6 +41,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
