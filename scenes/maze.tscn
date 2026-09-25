@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://bc2317r56eoou"]
 
-[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://Dungeon/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
-[ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://Dungeon/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
+[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
+[ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/Dungeon/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vqf1n"]
 texture = ExtResource("1_fgl6e")
