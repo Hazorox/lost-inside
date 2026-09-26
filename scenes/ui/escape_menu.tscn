@@ -1,0 +1,103 @@
+[gd_scene format=3 uid="uid://b8segqaa7owgl"]
+
+[ext_resource type="Script" uid="uid://cstwxsgvwkbfk" path="res://scenes/ui/escape_buttons.gd" id="1_vscpt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nfrx5"]
+font_size = 96
+font_color = Color(0.86616766, 0.5648472, 0, 1)
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rk2t3"]
+bg_color = Color(0, 0.4862745, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_60r36"]
+bg_color = Color(0, 0.31228623, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_js8sx"]
+bg_color = Color(0, 0.3647059, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dfiou"]
+bg_color = Color(0, 0.36472914, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vscpt"]
+bg_color = Color(0.65882355, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y5i2k"]
+bg_color = Color(0.85624266, 0.0020401904, 0.0011202913, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rkb54"]
+bg_color = Color(0.73959005, 0.0013375415, 0.0007338977, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ygfj3"]
+bg_color = Color(0.7411765, 0, 0, 1)
+
+[node name="EscapeMenu" type="CanvasLayer" unique_id=1233541789]
+script = ExtResource("1_vscpt")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2068398913]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.47058824)
+
+[node name="Label" type="Label" parent="." unique_id=888555471]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -309.5
+offset_top = -165.5
+offset_right = 309.5
+offset_bottom = -80.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "GAME PAUSED"
+label_settings = SubResource("LabelSettings_nfrx5")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="hsplit" type="HSplitContainer" parent="." unique_id=778174263]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_right = 360.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 128
+dragging_enabled = false
+
+[node name="continue" type="Button" parent="hsplit" unique_id=1679842665]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.83137256, 0.3137255, 0, 1)
+theme_override_colors/font_focus_color = Color(0.9372549, 0.35686275, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.99999994, 0.43101904, 0.1666488, 1)
+theme_override_colors/font_hover_color = Color(0.9372549, 0.35686275, 0, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_rk2t3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_60r36")
+theme_override_styles/hover = SubResource("StyleBoxFlat_js8sx")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dfiou")
+text = "CONTINUE"
+
+[node name="restart" type="Button" parent="hsplit" unique_id=372384528]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.13682577, 0.13682574, 0.13682571, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_vscpt")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_y5i2k")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rkb54")
+theme_override_styles/focus = SubResource("StyleBoxFlat_ygfj3")
+text = "RESTART"

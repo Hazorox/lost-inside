@@ -1,0 +1,126 @@
+[gd_scene format=3 uid="uid://s6isj6hdya1"]
+
+[ext_resource type="Script" uid="uid://cfly4qvv64dqx" path="res://scenes/main_menu/main_menu.gd" id="1_0ebjn"]
+[ext_resource type="FontFile" uid="uid://df24u1ivi2cvi" path="res://assets/title.ttf" id="1_fsom3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nfrx5"]
+font = ExtResource("1_fsom3")
+font_size = 128
+font_color = Color(0.95686275, 0.3372549, 0.20392157, 1)
+outline_size = 12
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q4bkd"]
+bg_color = Color(0, 0, 0.6862745, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wem23"]
+bg_color = Color(0.33361912, 0.5373985, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ob46e"]
+bg_color = Color(0.08627451, 0.32156864, 1, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uqeha"]
+bg_color = Color(0.08627451, 0.32156864, 1, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="MainMenu" type="Control" unique_id=848648526]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0ebjn")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=264536702]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=589476428]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.5019608)
+
+[node name="Label" type="Label" parent="." unique_id=1981601753]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -199.5
+offset_top = -179.5
+offset_right = 199.5
+offset_bottom = -76.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "LOST INSIDE"
+label_settings = SubResource("LabelSettings_nfrx5")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1938483447]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -152.99997
+offset_top = 74.0
+offset_right = 51.0
+offset_bottom = 147.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.5, 1.5)
+theme_override_colors/font_color = Color(0.94509804, 0.6117647, 0, 1)
+theme_override_colors/font_focus_color = Color(1, 0.6901961, 0.26666668, 1)
+theme_override_colors/font_pressed_color = Color(0.9999997, 0.74590504, 0.43090585, 1)
+theme_override_colors/font_hover_color = Color(1, 0.6901961, 0.26666668, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_q4bkd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wem23")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ob46e")
+theme_override_styles/focus = SubResource("StyleBoxFlat_uqeha")
+text = "START"
