@@ -34,6 +34,9 @@ func _physics_process(delta: float) -> void:
 		# Setting up the ray detection and excluding the node itself from the detection
 		var space_state = get_world_2d().direct_space_state
 		var query := PhysicsRayQueryParameters2D.create(from, to)
+		
+		# restrict to objects only so bounds dont affect
+		query.collision_mask = (1<<2)
 		query.exclude = [self]
 		
 		# Attempting to push if its a box
