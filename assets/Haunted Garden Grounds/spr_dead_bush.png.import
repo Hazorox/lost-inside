@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhhcaroc3ayg"
-path="res://.godot/imported/spr_dead_bush.png-75bac50ae64994d5cb41e692d6c148c9.ctex"
+path="res://.godot/imported/spr_dead_bush.png-1177fbce789e5f059249a656d2b8a17c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Haunted Garden Grounds/spr_dead_bush.png"
-dest_files=["res://.godot/imported/spr_dead_bush.png-75bac50ae64994d5cb41e692d6c148c9.ctex"]
+source_file="res://assets/Haunted Garden Grounds/spr_dead_bush.png"
+dest_files=["res://.godot/imported/spr_dead_bush.png-1177fbce789e5f059249a656d2b8a17c.ctex"]
 
 [params]
 

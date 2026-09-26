@@ -11,14 +11,17 @@ config_version=5
 [application]
 
 config/name="lost-inside"
+run/main_scene="uid://bc2317r56eoou"
 config/features=PackedStringArray("4.8", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1280
-window/size/viewport_height=720
-window/stretch/mode="canvas_items"
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
 [editor_plugins]
@@ -106,6 +109,28 @@ ui_accept={
 "unicode": 101,
 "location": 0,
 "echo": false,
+"script": null
+)]
+}
+attack={
+"deadzone": 0.2,
+"events": [null, Object(InputEventMouseButton,
+"resource_local_to_scene": false,
+"resource_name": "",
+"device": -1,
+"window_id": 0,
+"alt_pressed": false,
+"shift_pressed": false,
+"ctrl_pressed": false,
+"meta_pressed": false,
+"button_mask": 1,
+"position": Vector2(454, 18),
+"global_position": Vector2(466, 78),
+"factor": 1.0,
+"button_index": 1,
+"canceled": false,
+"pressed": true,
+"double_click": false,
 "script": null
 )]
 }

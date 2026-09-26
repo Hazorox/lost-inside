@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://iwkw8fyrntbd"
-path="res://.godot/imported/doors_lever_chest_animation.png-a69c06f388d53f7135d7753b40bc5dc6.ctex"
+path="res://.godot/imported/doors_lever_chest_animation.png-7a5b5a3c1cf7e3cffb3771be326f5de9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png"
-dest_files=["res://.godot/imported/doors_lever_chest_animation.png-a69c06f388d53f7135d7753b40bc5dc6.ctex"]
+source_file="res://assets/Dungeon/Tiled_files/doors_lever_chest_animation.png"
+dest_files=["res://.godot/imported/doors_lever_chest_animation.png-7a5b5a3c1cf7e3cffb3771be326f5de9.ctex"]
 
 [params]
 

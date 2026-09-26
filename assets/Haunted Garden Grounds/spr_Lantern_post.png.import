@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hoji7aoqjlig"
-path="res://.godot/imported/spr_Lantern_post.png-01f8ae4585c22c1f287ed1bcf30b7310.ctex"
+path="res://.godot/imported/spr_Lantern_post.png-b73fa1c3a9095fe1c24738f13b5bffb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Haunted Garden Grounds/spr_Lantern_post.png"
-dest_files=["res://.godot/imported/spr_Lantern_post.png-01f8ae4585c22c1f287ed1bcf30b7310.ctex"]
+source_file="res://assets/Haunted Garden Grounds/spr_Lantern_post.png"
+dest_files=["res://.godot/imported/spr_Lantern_post.png-b73fa1c3a9095fe1c24738f13b5bffb0.ctex"]
 
 [params]
 

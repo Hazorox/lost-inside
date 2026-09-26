@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp1hahqw3sfhh"
-path="res://.godot/imported/spr_fence.png-c1f34a4866bad165574132c691fc9863.ctex"
+path="res://.godot/imported/spr_fence.png-fe1c5ba18a272cebea2c78e5401e5352.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Haunted Garden Grounds/spr_fence.png"
-dest_files=["res://.godot/imported/spr_fence.png-c1f34a4866bad165574132c691fc9863.ctex"]
+source_file="res://assets/Haunted Garden Grounds/spr_fence.png"
+dest_files=["res://.godot/imported/spr_fence.png-fe1c5ba18a272cebea2c78e5401e5352.ctex"]
 
 [params]
 

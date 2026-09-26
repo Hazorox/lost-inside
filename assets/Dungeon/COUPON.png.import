@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc7suyajxrivq"
-path="res://.godot/imported/COUPON.png-bd87a1bce10fd497b04c1b3e4181cba4.ctex"
+path="res://.godot/imported/COUPON.png-c3ed2241e941d353f3bf14dc4006c706.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Dungeon/COUPON.png"
-dest_files=["res://.godot/imported/COUPON.png-bd87a1bce10fd497b04c1b3e4181cba4.ctex"]
+source_file="res://assets/Dungeon/COUPON.png"
+dest_files=["res://.godot/imported/COUPON.png-c3ed2241e941d353f3bf14dc4006c706.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3620kko6jlvd"
-path="res://.godot/imported/animations, page ONE-hand 2.png-83b0c6f8b648b7453673259d03e00a27.ctex"
+path="res://.godot/imported/animations, page ONE-hand 2.png-23864084352e67c86e47efdca236835f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 2.png"
-dest_files=["res://.godot/imported/animations, page ONE-hand 2.png-83b0c6f8b648b7453673259d03e00a27.ctex"]
+source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 2.png"
+dest_files=["res://.godot/imported/animations, page ONE-hand 2.png-23864084352e67c86e47efdca236835f.ctex"]
 
 [params]
 

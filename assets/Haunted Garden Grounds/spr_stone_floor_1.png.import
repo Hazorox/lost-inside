@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8m6kqiv0ufin"
-path="res://.godot/imported/spr_stone_floor_1.png-5199b421f0af50754bf234d36f517dae.ctex"
+path="res://.godot/imported/spr_stone_floor_1.png-bcb030c974afd8a56bf942cc7b01d674.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Haunted Garden Grounds/spr_stone_floor_1.png"
-dest_files=["res://.godot/imported/spr_stone_floor_1.png-5199b421f0af50754bf234d36f517dae.ctex"]
+source_file="res://assets/Haunted Garden Grounds/spr_stone_floor_1.png"
+dest_files=["res://.godot/imported/spr_stone_floor_1.png-bcb030c974afd8a56bf942cc7b01d674.ctex"]
 
 [params]
 

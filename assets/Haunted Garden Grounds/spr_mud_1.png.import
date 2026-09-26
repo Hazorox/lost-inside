@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bix671c2aw4pu"
-path="res://.godot/imported/spr_mud_1.png-513823ce5652d645cb542e1300db909f.ctex"
+path="res://.godot/imported/spr_mud_1.png-f5b674915e3ff27891f0c720ca557cc5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Haunted Garden Grounds/spr_mud_1.png"
-dest_files=["res://.godot/imported/spr_mud_1.png-513823ce5652d645cb542e1300db909f.ctex"]
+source_file="res://assets/Haunted Garden Grounds/spr_mud_1.png"
+dest_files=["res://.godot/imported/spr_mud_1.png-f5b674915e3ff27891f0c720ca557cc5.ctex"]
 
 [params]
 

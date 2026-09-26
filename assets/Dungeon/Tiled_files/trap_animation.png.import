@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqgmfid3ixk7p"
-path="res://.godot/imported/trap_animation.png-eb7a3234b16c5a1f2635323e48ebeeb7.ctex"
+path="res://.godot/imported/trap_animation.png-ae84970b87adb142b20e1d127f456a28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dungeon/Dungeon/Tiled_files/trap_animation.png"
-dest_files=["res://.godot/imported/trap_animation.png-eb7a3234b16c5a1f2635323e48ebeeb7.ctex"]
+source_file="res://assets/Dungeon/Tiled_files/trap_animation.png"
+dest_files=["res://.godot/imported/trap_animation.png-ae84970b87adb142b20e1d127f456a28.ctex"]
 
 [params]
 
