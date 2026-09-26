@@ -1,18 +1,18 @@
 [gd_scene format=4 uid="uid://dstfsywrfrht4"]
 
-[ext_resource type="Texture2D" uid="uid://iwkw8fyrntbd" path="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png" id="1_5eio8"]
-[ext_resource type="Script" uid="uid://cr73hklkodydb" path="res://scenes/puzzle_rooms/1/push_blocks.gd" id="1_56tm0"]
-[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="2_s7qed"]
-[ext_resource type="Texture2D" uid="uid://bh5e20flw02uh" path="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png" id="3_3iu05"]
-[ext_resource type="PackedScene" uid="uid://bsh36vdx3f8o2" path="res://scenes/test_player/test_player.tscn" id="4_4i8mx"]
-[ext_resource type="Script" uid="uid://dipnuxqymysho" path="res://scenes/puzzle_rooms/1/box.gd" id="5_s7qed"]
-[ext_resource type="Texture2D" uid="uid://tupakcge075n" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="6_3iu05"]
-[ext_resource type="Script" uid="uid://coc5ii88qcefx" path="res://scenes/puzzle_rooms/1/plate.gd" id="8_i3oyy"]
-[ext_resource type="Script" uid="uid://dyyp6qa3odccy" path="res://scenes/puzzle_rooms/1/door.gd" id="9_jmy70"]
-[ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="10_i3oyy"]
+[ext_resource type="Script" uid="uid://cr73hklkodydb" path="res://scenes/puzzle_1/push_blocks.gd" id="1_gxpa8"]
+[ext_resource type="Texture2D" uid="uid://iwkw8fyrntbd" path="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png" id="2_gikfy"]
+[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="3_p46bv"]
+[ext_resource type="Texture2D" uid="uid://bh5e20flw02uh" path="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png" id="4_n34ga"]
+[ext_resource type="PackedScene" uid="uid://bsh36vdx3f8o2" path="res://scenes/test_player/test_player.tscn" id="5_8ulwx"]
+[ext_resource type="Script" uid="uid://dipnuxqymysho" path="res://scenes/puzzle_1/box.gd" id="6_c4y5e"]
+[ext_resource type="Texture2D" uid="uid://tupakcge075n" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="7_enrbl"]
+[ext_resource type="Script" uid="uid://coc5ii88qcefx" path="res://scenes/puzzle_1/plate.gd" id="8_hgu4n"]
+[ext_resource type="Script" uid="uid://dyyp6qa3odccy" path="res://scenes/puzzle_1/door.gd" id="9_iruyk"]
+[ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="10_iedok"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hr8rw"]
-texture = ExtResource("1_5eio8")
+texture = ExtResource("2_gikfy")
 0:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
@@ -174,7 +174,7 @@ texture = ExtResource("1_5eio8")
 1:9/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_56tm0"]
-texture = ExtResource("2_s7qed")
+texture = ExtResource("3_p46bv")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -457,7 +457,7 @@ texture = ExtResource("2_s7qed")
 15:27/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i3oyy"]
-texture = ExtResource("3_3iu05")
+texture = ExtResource("4_n34ga")
 1:1/0 = 0
 3:1/0 = 0
 6:1/0 = 0
@@ -605,7 +605,7 @@ sources/1 = SubResource("TileSetAtlasSource_56tm0")
 sources/2 = SubResource("TileSetAtlasSource_i3oyy")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5eio8"]
-texture = ExtResource("3_3iu05")
+texture = ExtResource("4_n34ga")
 1:1/0 = 0
 3:1/0 = 0
 6:1/0 = 0
@@ -751,7 +751,7 @@ texture = ExtResource("3_3iu05")
 sources/0 = SubResource("TileSetAtlasSource_5eio8")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4i8mx"]
-texture = ExtResource("6_3iu05")
+texture = ExtResource("7_enrbl")
 0:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
@@ -903,7 +903,7 @@ size = Vector2(20, 31)
 size = Vector2(39, 39)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iu05"]
-texture = ExtResource("1_5eio8")
+texture = ExtResource("2_gikfy")
 0:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
@@ -1047,7 +1047,7 @@ sources/0 = SubResource("TileSetAtlasSource_3iu05")
 radius = 55.226807
 
 [node name="1" type="Node2D" unique_id=316707945]
-script = ExtResource("1_56tm0")
+script = ExtResource("1_gxpa8")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2141500719]
 scale = Vector2(2.5, 2.5)
@@ -1059,7 +1059,7 @@ scale = Vector2(2.5, 2.5)
 tile_map_data = PackedByteArray("AAAdAAMAAAABAAcAAAAdAAQAAAABAAgAAAAeAAMAAAACAAcAAAAeAAQAAAACAAgAAAABAAMAAAATAAQAAAABAAQAAAATAAUAAAACAAMAAAAUAAQAAAACAAQAAAAUAAUAAAAdAA0AAAATAAEAAAAdAA4AAAATAAIAAAAdAA8AAAATAAMAAAAeAA0AAAAUAAEAAAAeAA4AAAAUAAIAAAAeAA8AAAAUAAMAAAABAAgAAAATAAEAAAABAAkAAAATAAIAAAABAAoAAAATAAMAAAACAAgAAAAUAAEAAAACAAkAAAAUAAIAAAACAAoAAAAUAAMAAAAWAAMAAAATAAQAAAAWAAQAAAATAAUAAAAXAAMAAAAUAAQAAAAXAAQAAAAUAAUAAAA=")
 tile_set = SubResource("TileSet_0hvcy")
 
-[node name="TestPlayer" parent="." unique_id=508890332 groups=["player"] instance=ExtResource("4_4i8mx")]
+[node name="TestPlayer" parent="." unique_id=508890332 groups=["player"] instance=ExtResource("5_8ulwx")]
 position = Vector2(480, 327)
 scale = Vector2(1.5, 1.5)
 
@@ -1067,7 +1067,7 @@ scale = Vector2(1.5, 1.5)
 position = Vector2(613, 308)
 collision_layer = 4
 collision_mask = 11
-script = ExtResource("5_s7qed")
+script = ExtResource("6_c4y5e")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="box" unique_id=1659837254]
 scale = Vector2(1.5, 1.5)
@@ -1082,7 +1082,7 @@ shape = SubResource("RectangleShape2D_nfrx5")
 position = Vector2(779, 295)
 collision_layer = 4
 collision_mask = 11
-script = ExtResource("5_s7qed")
+script = ExtResource("6_c4y5e")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="box2" unique_id=1822212825]
 scale = Vector2(1.5, 1.5)
@@ -1097,7 +1097,7 @@ shape = SubResource("RectangleShape2D_nfrx5")
 position = Vector2(701, 419)
 collision_layer = 4
 collision_mask = 11
-script = ExtResource("5_s7qed")
+script = ExtResource("6_c4y5e")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="box4" unique_id=521370184]
 scale = Vector2(1.5, 1.5)
@@ -1111,7 +1111,7 @@ shape = SubResource("RectangleShape2D_nfrx5")
 [node name="plate" type="Area2D" parent="." unique_id=1292146526 groups=["plate"]]
 position = Vector2(582, 421)
 collision_mask = 4
-script = ExtResource("8_i3oyy")
+script = ExtResource("8_hgu4n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate" unique_id=1604620997]
 position = Vector2(-1.5, -0.5)
@@ -1120,7 +1120,7 @@ shape = SubResource("RectangleShape2D_0hvcy")
 [node name="plate2" type="Area2D" parent="." unique_id=1832638716 groups=["plate"]]
 position = Vector2(741, 381)
 collision_mask = 4
-script = ExtResource("8_i3oyy")
+script = ExtResource("8_hgu4n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate2" unique_id=937126110]
 position = Vector2(-1.5, -0.5)
@@ -1129,7 +1129,7 @@ shape = SubResource("RectangleShape2D_0hvcy")
 [node name="plate3" type="Area2D" parent="." unique_id=1289276771 groups=["plate"]]
 position = Vector2(820.98, 421)
 collision_mask = 4
-script = ExtResource("8_i3oyy")
+script = ExtResource("8_hgu4n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate3" unique_id=1884298846]
 position = Vector2(-1.5, -0.5)
@@ -1155,7 +1155,7 @@ polygon = PackedVector2Array(-5, -7, 3, -82, 777, -88, 791, -18, 834, -12, 844, 
 [node name="door" type="Area2D" parent="." unique_id=583417467]
 position = Vector2(522, 80)
 collision_mask = 2
-script = ExtResource("9_jmy70")
+script = ExtResource("9_iruyk")
 
 [node name="open_door" type="TileMapLayer" parent="door" unique_id=1920854305]
 scale = Vector2(2.5, 2.5)
@@ -1165,5 +1165,5 @@ tile_set = SubResource("TileSet_tr8j5")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=132983349]
 shape = SubResource("CircleShape2D_nfrx5")
 
-[node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("10_i3oyy")]
+[node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("10_iedok")]
 visible = false
