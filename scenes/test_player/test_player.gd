@@ -2,7 +2,6 @@ extends CharacterBody2D
 
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
 @export var last_dir :Vector2 = Vector2.DOWN
 
 func _physics_process(delta: float) -> void:
@@ -27,13 +26,20 @@ func _physics_process(delta: float) -> void:
 		last_dir = Vector2.RIGHT
 	
 	if Input.is_action_just_pressed("interact"):
+		# Area to scan for boxes to & from
 		var from = global_position
-		var to = global_position + last_dir * 48
-		print("from: ", from, " to: ", to)
+		
+		# Uhhh idk why 56 I got some help from Claude here
+		var to = global_position + last_dir * 56
+		# Setting up the ray detection and excluding the node itself from the detection
 		var space_state = get_world_2d().direct_space_state
 		var query := PhysicsRayQueryParameters2D.create(from, to)
 		query.exclude = [self]
+		
+		# Attempting to push if its a box
 		var result := space_state.intersect_ray(query)
-		print("result: ", result)
-
+		if not result.is_empty():
+			if result.collider.is_in_group("box"):
+				print(result)
+				result.collider.attempt_push(last_dir)
 	move_and_slide()
