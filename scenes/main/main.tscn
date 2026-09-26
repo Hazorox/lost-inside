@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://clv6cdlbvs83a"]
+
+[ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="1_hyk8p"]
+
+[node name="Main" type="Node2D" unique_id=42044330]
+
+[node name="EscapeMenu" parent="." unique_id=1236042949 instance=ExtResource("1_hyk8p")]
