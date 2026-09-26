@@ -43,6 +43,5 @@ func _physics_process(delta: float) -> void:
 		var result := space_state.intersect_ray(query)
 		if not result.is_empty():
 			if result.collider.is_in_group("box"):
-				print(result)
 				result.collider.attempt_push(last_dir)
 	move_and_slide()

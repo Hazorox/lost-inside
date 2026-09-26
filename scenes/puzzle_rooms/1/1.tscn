@@ -1,11 +1,15 @@
 [gd_scene format=4 uid="uid://dstfsywrfrht4"]
 
 [ext_resource type="Texture2D" uid="uid://iwkw8fyrntbd" path="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png" id="1_5eio8"]
+[ext_resource type="Script" uid="uid://cr73hklkodydb" path="res://scenes/puzzle_rooms/1/push_blocks.gd" id="1_56tm0"]
 [ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="2_s7qed"]
 [ext_resource type="Texture2D" uid="uid://bh5e20flw02uh" path="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png" id="3_3iu05"]
 [ext_resource type="PackedScene" uid="uid://bsh36vdx3f8o2" path="res://scenes/test_player/test_player.tscn" id="4_4i8mx"]
 [ext_resource type="Script" uid="uid://dipnuxqymysho" path="res://scenes/puzzle_rooms/1/box.gd" id="5_s7qed"]
 [ext_resource type="Texture2D" uid="uid://tupakcge075n" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="6_3iu05"]
+[ext_resource type="Script" uid="uid://coc5ii88qcefx" path="res://scenes/puzzle_rooms/1/plate.gd" id="8_i3oyy"]
+[ext_resource type="Script" uid="uid://dyyp6qa3odccy" path="res://scenes/puzzle_rooms/1/door.gd" id="9_jmy70"]
+[ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="10_i3oyy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hr8rw"]
 texture = ExtResource("1_5eio8")
@@ -746,147 +750,6 @@ texture = ExtResource("3_3iu05")
 [sub_resource type="TileSet" id="TileSet_0hvcy"]
 sources/0 = SubResource("TileSetAtlasSource_5eio8")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iu05"]
-texture = ExtResource("1_5eio8")
-0:0/0 = 0
-4:0/0 = 0
-5:0/0 = 0
-6:0/0 = 0
-7:0/0 = 0
-8:0/0 = 0
-9:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
-2:1/0 = 0
-3:1/0 = 0
-4:1/0 = 0
-5:1/0 = 0
-6:1/0 = 0
-7:1/0 = 0
-8:1/0 = 0
-9:1/0 = 0
-0:2/0 = 0
-1:2/0 = 0
-2:2/0 = 0
-3:2/0 = 0
-4:2/0 = 0
-5:2/0 = 0
-6:2/0 = 0
-7:2/0 = 0
-8:2/0 = 0
-9:2/0 = 0
-0:3/0 = 0
-4:3/0 = 0
-5:3/0 = 0
-6:3/0 = 0
-7:3/0 = 0
-8:3/0 = 0
-9:3/0 = 0
-0:4/0 = 0
-1:4/0 = 0
-2:4/0 = 0
-3:4/0 = 0
-4:4/0 = 0
-5:4/0 = 0
-6:4/0 = 0
-7:4/0 = 0
-8:4/0 = 0
-9:4/0 = 0
-0:5/0 = 0
-1:5/0 = 0
-2:5/0 = 0
-3:5/0 = 0
-4:5/0 = 0
-5:5/0 = 0
-6:5/0 = 0
-7:5/0 = 0
-8:5/0 = 0
-9:5/0 = 0
-0:6/0 = 0
-4:6/0 = 0
-5:6/0 = 0
-6:6/0 = 0
-7:6/0 = 0
-8:6/0 = 0
-9:6/0 = 0
-0:7/0 = 0
-1:7/0 = 0
-2:7/0 = 0
-3:7/0 = 0
-4:7/0 = 0
-5:7/0 = 0
-6:7/0 = 0
-7:7/0 = 0
-8:7/0 = 0
-9:7/0 = 0
-0:8/0 = 0
-1:8/0 = 0
-2:8/0 = 0
-3:8/0 = 0
-4:8/0 = 0
-5:8/0 = 0
-6:8/0 = 0
-7:8/0 = 0
-8:8/0 = 0
-9:8/0 = 0
-0:9/0 = 0
-4:9/0 = 0
-5:9/0 = 0
-6:9/0 = 0
-7:9/0 = 0
-8:9/0 = 0
-9:9/0 = 0
-0:10/0 = 0
-1:10/0 = 0
-2:10/0 = 0
-3:10/0 = 0
-4:10/0 = 0
-5:10/0 = 0
-6:10/0 = 0
-7:10/0 = 0
-8:10/0 = 0
-9:10/0 = 0
-0:11/0 = 0
-1:11/0 = 0
-2:11/0 = 0
-3:11/0 = 0
-4:11/0 = 0
-5:11/0 = 0
-6:11/0 = 0
-7:11/0 = 0
-8:11/0 = 0
-9:11/0 = 0
-0:12/0 = 0
-4:12/0 = 0
-5:12/0 = 0
-6:12/0 = 0
-7:12/0 = 0
-8:12/0 = 0
-9:12/0 = 0
-0:13/0 = 0
-1:13/0 = 0
-2:13/0 = 0
-3:13/0 = 0
-4:13/0 = 0
-5:13/0 = 0
-6:13/0 = 0
-7:13/0 = 0
-8:13/0 = 0
-9:13/0 = 0
-0:14/0 = 0
-1:14/0 = 0
-2:14/0 = 0
-3:14/0 = 0
-4:14/0 = 0
-5:14/0 = 0
-6:14/0 = 0
-7:14/0 = 0
-8:14/0 = 0
-9:14/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_tr8j5"]
-sources/0 = SubResource("TileSetAtlasSource_3iu05")
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4i8mx"]
 texture = ExtResource("6_3iu05")
 0:0/0 = 0
@@ -1039,7 +902,152 @@ size = Vector2(20, 31)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0hvcy"]
 size = Vector2(39, 39)
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iu05"]
+texture = ExtResource("1_5eio8")
+0:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+0:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+0:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+0:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+9:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+8:11/0 = 0
+9:11/0 = 0
+0:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_tr8j5"]
+sources/0 = SubResource("TileSetAtlasSource_3iu05")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
+radius = 55.226807
+
 [node name="1" type="Node2D" unique_id=316707945]
+script = ExtResource("1_56tm0")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2141500719]
 scale = Vector2(2.5, 2.5)
@@ -1051,13 +1059,7 @@ scale = Vector2(2.5, 2.5)
 tile_map_data = PackedByteArray("AAAdAAMAAAABAAcAAAAdAAQAAAABAAgAAAAeAAMAAAACAAcAAAAeAAQAAAACAAgAAAABAAMAAAATAAQAAAABAAQAAAATAAUAAAACAAMAAAAUAAQAAAACAAQAAAAUAAUAAAAdAA0AAAATAAEAAAAdAA4AAAATAAIAAAAdAA8AAAATAAMAAAAeAA0AAAAUAAEAAAAeAA4AAAAUAAIAAAAeAA8AAAAUAAMAAAABAAgAAAATAAEAAAABAAkAAAATAAIAAAABAAoAAAATAAMAAAACAAgAAAAUAAEAAAACAAkAAAAUAAIAAAACAAoAAAAUAAMAAAAWAAMAAAATAAQAAAAWAAQAAAATAAUAAAAXAAMAAAAUAAQAAAAXAAQAAAAUAAUAAAA=")
 tile_set = SubResource("TileSet_0hvcy")
 
-[node name="open_door" type="TileMapLayer" parent="." unique_id=1920854305]
-visible = false
-scale = Vector2(2.5, 2.5)
-tile_map_data = PackedByteArray("AAAMAAEAAAAAAA0AAAAMAAIAAAAAAA4AAAANAAEAAAABAA0AAAANAAIAAAABAA4AAAA=")
-tile_set = SubResource("TileSet_tr8j5")
-
-[node name="TestPlayer" parent="." unique_id=508890332 instance=ExtResource("4_4i8mx")]
+[node name="TestPlayer" parent="." unique_id=508890332 groups=["player"] instance=ExtResource("4_4i8mx")]
 position = Vector2(480, 327)
 scale = Vector2(1.5, 1.5)
 
@@ -1108,6 +1110,8 @@ shape = SubResource("RectangleShape2D_nfrx5")
 
 [node name="plate" type="Area2D" parent="." unique_id=1292146526 groups=["plate"]]
 position = Vector2(582, 421)
+collision_mask = 4
+script = ExtResource("8_i3oyy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate" unique_id=1604620997]
 position = Vector2(-1.5, -0.5)
@@ -1115,6 +1119,8 @@ shape = SubResource("RectangleShape2D_0hvcy")
 
 [node name="plate2" type="Area2D" parent="." unique_id=1832638716 groups=["plate"]]
 position = Vector2(741, 381)
+collision_mask = 4
+script = ExtResource("8_i3oyy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate2" unique_id=937126110]
 position = Vector2(-1.5, -0.5)
@@ -1122,12 +1128,15 @@ shape = SubResource("RectangleShape2D_0hvcy")
 
 [node name="plate3" type="Area2D" parent="." unique_id=1289276771 groups=["plate"]]
 position = Vector2(820.98, 421)
+collision_mask = 4
+script = ExtResource("8_i3oyy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="plate3" unique_id=1884298846]
 position = Vector2(-1.5, -0.5)
 shape = SubResource("RectangleShape2D_0hvcy")
 
 [node name="boxBounds" type="StaticBody2D" parent="." unique_id=1675652290]
+visible = false
 position = Vector2(639, 381)
 collision_layer = 8
 collision_mask = 0
@@ -1142,3 +1151,19 @@ collision_mask = 0
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="walls" unique_id=1984613980]
 build_mode = 1
 polygon = PackedVector2Array(-5, -7, 3, -82, 777, -88, 791, -18, 834, -12, 844, -74, 1067, -74, 1080, -27, 1129, -10, 1131, 342, 1067, 355, 1075, 385, 1077, 422, 1129, 426, 1129, 491, -77, 491, -77, 231, -3, 217, -7, 225, -14, 155, -25, 145, -79, 139, -80, -5)
+
+[node name="door" type="Area2D" parent="." unique_id=583417467]
+position = Vector2(522, 80)
+collision_mask = 2
+script = ExtResource("9_jmy70")
+
+[node name="open_door" type="TileMapLayer" parent="door" unique_id=1920854305]
+scale = Vector2(2.5, 2.5)
+tile_map_data = PackedByteArray("AAD/////AAACAA0AAAD//wAAAAACAA4AAAAAAP//AAADAA0AAAAAAAAAAAADAA4AAAA=")
+tile_set = SubResource("TileSet_tr8j5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=132983349]
+shape = SubResource("CircleShape2D_nfrx5")
+
+[node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("10_i3oyy")]
+visible = false
