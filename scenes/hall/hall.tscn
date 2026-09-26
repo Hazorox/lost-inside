@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cp0qdccis5sr3"]
 
-[ext_resource type="Texture2D" uid="uid://ba2fjuvcr216u" path="res://assets/Dungeon Tile Set.png" id="1_7e5qt"]
-[ext_resource type="PackedScene" uid="uid://dcqniyrdwq55n" path="res://scenes/door.tscn" id="2_f612h"]
+[ext_resource type="Texture2D" uid="uid://ba2fjuvcr216u" path="res://assets/dungeon/Dungeon Tile Set.png" id="1_7e5qt"]
+[ext_resource type="PackedScene" uid="uid://dcqniyrdwq55n" path="res://scenes/door/door.tscn" id="2_f612h"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ru55v"]
 texture = ExtResource("1_7e5qt")

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dcqniyrdwq55n"]
 
-[ext_resource type="Script" uid="uid://b7e5u5bnxouau" path="res://scenes/door.gd" id="1_uvdjg"]
-[ext_resource type="Texture2D" uid="uid://dbo6hu8d24gx" path="res://assets/Medieval_props_free.png" id="2_83dcw"]
+[ext_resource type="Script" uid="uid://b7e5u5bnxouau" path="res://scenes/door/door.gd" id="1_uvdjg"]
+[ext_resource type="Texture2D" uid="uid://dbo6hu8d24gx" path="res://assets/dungeon/Medieval_props_free.png" id="2_83dcw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v6xrn"]
 texture = ExtResource("2_83dcw")

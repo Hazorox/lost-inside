@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://1jfe5jo4fvm1"]
+
+[ext_resource type="Texture2D" uid="uid://ck4rvcc44bbpf" path="res://assets/math/theta/death.png" id="1_l3lss"]
+[ext_resource type="Texture2D" uid="uid://cyk4pngh24rey" path="res://assets/math/theta/idle.png" id="2_l3lss"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ywo6q"]
+atlas = ExtResource("1_l3lss")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpu4b"]
+atlas = ExtResource("1_l3lss")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ny3o"]
+atlas = ExtResource("1_l3lss")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqm7d"]
+atlas = ExtResource("1_l3lss")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7pi0"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iusth"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_unsy1"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xrccy"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rbf6"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_218g3"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_duw5o"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_647ix"]
+atlas = ExtResource("2_l3lss")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s7wsd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ywo6q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tpu4b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ny3o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqm7d")
+}],
+"loop": 1,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7pi0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iusth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_unsy1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xrccy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rbf6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_218g3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_duw5o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_647ix")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 12.0
+}]
+
+[node name="theta" type="CharacterBody2D" unique_id=2141416358]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2062280052]
+sprite_frames = SubResource("SpriteFrames_s7wsd")
+animation = &"idle"
+autoplay = "idle"

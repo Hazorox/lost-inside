@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbo6hu8d24gx"
-path="res://.godot/imported/Medieval_props_free.png-0d59e77d7df6d8ef49ac011d328f3ca3.ctex"
+uid="uid://ck4rvcc44bbpf"
+path="res://.godot/imported/death.png-e1cf51bd787f42b3c70c2349c511db57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_props_free.png"
-dest_files=["res://.godot/imported/Medieval_props_free.png-0d59e77d7df6d8ef49ac011d328f3ca3.ctex"]
+source_file="res://assets/math/theta/death.png"
+dest_files=["res://.godot/imported/death.png-e1cf51bd787f42b3c70c2349c511db57.ctex"]
 
 [params]
 
