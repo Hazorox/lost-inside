@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://pa7jkpyb1bvg" path="res://assets/hero/player.png" id="1_rp718"]
 [ext_resource type="Script" uid="uid://b03wt5gqw7itj" path="res://scenes/characters/player.gd" id="1_yewv4"]
+[ext_resource type="Texture2D" uid="uid://cn825f880vbe" path="res://assets/math/theta/theta.png" id="2_yewv4"]
 
 [sub_resource type="Animation" id="Animation_yewv4"]
 length = 0.001
@@ -209,7 +210,7 @@ script = ExtResource("1_yewv4")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=458075948]
 position = Vector2(0, -18)
-texture = ExtResource("1_rp718")
+texture = ExtResource("2_yewv4")
 hframes = 6
 vframes = 10
 

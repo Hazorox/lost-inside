@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/decorative_cracks_floor.png.import
-uid="uid://bjjpdjvrx16g2"
-path="res://.godot/imported/decorative_cracks_floor.png-cbb0832e02d93afd8036fe70a21ee85d.ctex"
-========
-uid="uid://dvm1kokoulfrs"
+uid="uid://w33j8gsv3ybc"
 path="res://.godot/imported/decorative_cracks_floor.png-239897d81879615d92f927b9c5c757fa.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/PNG/decorative_cracks_floor.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/decorative_cracks_floor.png.import
-source_file="res://assets/Dungeon/Tiled_files/decorative_cracks_floor.png"
-dest_files=["res://.godot/imported/decorative_cracks_floor.png-cbb0832e02d93afd8036fe70a21ee85d.ctex"]
-========
 source_file="res://assets/Dungeon/Dungeon/PNG/decorative_cracks_floor.png"
 dest_files=["res://.godot/imported/decorative_cracks_floor.png-239897d81879615d92f927b9c5c757fa.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/PNG/decorative_cracks_floor.png.import
 
 [params]
 

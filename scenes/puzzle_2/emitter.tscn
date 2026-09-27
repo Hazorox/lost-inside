@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dpne2s38jkg71"]
+
+[ext_resource type="Script" uid="uid://c1k5j347gyspr" path="res://scenes/puzzle_2/emitter.gd" id="1_uj2gr"]
+
+[node name="Emitter" type="Node2D" unique_id=535459778]
+script = ExtResource("1_uj2gr")
+collision_mask = 4
+
+[node name="Line2D" type="Line2D" parent="." unique_id=2021654511]
+default_color = Color(0.76862746, 0, 0.22352941, 1)

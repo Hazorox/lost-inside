@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/hero/player.png.import
-uid="uid://2jmcumqf1vs3"
-path="res://.godot/imported/player.png-b568033a476d63c77b7da444ba8be9c9.ctex"
-========
-uid="uid://cdjht38wnooxp"
+uid="uid://gqm3jjic0pux"
 path="res://.godot/imported/ALL.png-58301a01653107342f2e7241404ab053.ctex"
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/ALL.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/hero/player.png.import
-source_file="res://assets/hero/player.png"
-dest_files=["res://.godot/imported/player.png-b568033a476d63c77b7da444ba8be9c9.ctex"]
-========
 source_file="res://assets/Dungeon/Monsters Pack/ALL.png"
 dest_files=["res://.godot/imported/ALL.png-58301a01653107342f2e7241404ab053.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/ALL.png.import
 
 [params]
 

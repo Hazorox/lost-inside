@@ -40,6 +40,7 @@ damage_emitter=""
 
 [gui]
 
+theme/custom_font="uid://bp8n31su7f6nf"
 common/auto_focus_strategy=1
 
 [input]
@@ -85,6 +86,13 @@ down={
 [input_devices]
 
 joypads/ignore_joypad_on_unfocused_application=true
+
+[layer_names]
+
+2d_physics/layer_1="world"
+2d_physics/layer_2="player"
+2d_physics/layer_3="objects"
+2d_physics/layer_4="objects_bounds"
 
 [physics]
 

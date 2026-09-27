@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c61nd1ilghlv"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/walls_floor.png.import
-path="res://.godot/imported/walls_floor.png-f7c2edce3aa747d0e7818158e9322e85.ctex"
-========
+uid="uid://blvgxwap7vypr"
 path="res://.godot/imported/walls_floor.png-4d42c30479590e6dba2983baf8db5320.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/walls_floor.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/walls_floor.png.import
-source_file="res://assets/Dungeon/Tiled_files/walls_floor.png"
-dest_files=["res://.godot/imported/walls_floor.png-f7c2edce3aa747d0e7818158e9322e85.ctex"]
-========
 source_file="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png"
 dest_files=["res://.godot/imported/walls_floor.png-4d42c30479590e6dba2983baf8db5320.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/walls_floor.png.import
 
 [params]
 
