@@ -17,3 +17,4 @@ func _on_area_entered(area: Area2D) -> void:
 	time_since_opened = Time.get_ticks_msec()
 	if area.is_in_group("player"):
 		animated_sprite_2d.play("open")
+		Globals.owned_keys +=1

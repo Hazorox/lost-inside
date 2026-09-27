@@ -124,4 +124,4 @@ func flip_sprites() -> void:
 
 func _on_damage_reciever_area_entered(area: Area2D) -> void:
 	if area.is_in_group("damage_emitter"):
-		print("you've been damaged")
+		Globals.player_lives -= 1
