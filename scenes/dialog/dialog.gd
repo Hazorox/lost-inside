@@ -1,3 +1,4 @@
+class_name Dialouge
 extends CanvasLayer
 
 @onready var cont: Panel = $MarginContainer/Panel
@@ -10,7 +11,6 @@ extends CanvasLayer
 var queue: Array = []
 var tween: Tween
 var current = STATE.READY
-
 
 enum STATE{
 	READY,
@@ -97,6 +97,8 @@ func _process(delta: float) -> void:
 			if !queue.is_empty():
 				var entry = queue.pop_front()
 				add_text(entry)
+			else:
+				GameManager.is_dialog_finished = true
 		STATE.READING:
 			if Input.is_action_just_pressed("ui_accept"):
 				textbox.visible_ratio = 1.0

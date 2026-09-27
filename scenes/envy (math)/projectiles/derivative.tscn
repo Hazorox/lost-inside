@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://d3sx31p2t83ya"]
+
+[ext_resource type="Script" uid="uid://crjnh88jkdjjs" path="res://scenes/envy (math)/projectiles/derivative.gd" id="1_axwfa"]
+[ext_resource type="Texture2D" uid="uid://bf6haqme6lkkv" path="res://assets/math/derivative.png" id="1_un1al"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_s7wsd"]
+radius = 12.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s7wsd"]
+radius = 1.9472575
+height = 53.931866
+
+[node name="derivative" type="Area2D" unique_id=1923464955]
+collision_layer = 64
+script = ExtResource("1_axwfa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1646416290]
+rotation = 1.5565518
+texture = ExtResource("1_un1al")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1423976638]
+position = Vector2(-16, -6)
+shape = SubResource("CircleShape2D_s7wsd")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=693381814]
+position = Vector2(-2, 9)
+rotation = -1.5205562
+shape = SubResource("CapsuleShape2D_s7wsd")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=122077241]
+position = Vector2(-17, -4)
+rect = Rect2(-10, -14, 53, 30)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

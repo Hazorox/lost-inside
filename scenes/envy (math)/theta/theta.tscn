@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://1jfe5jo4fvm1"]
 
 [ext_resource type="Texture2D" uid="uid://ck4rvcc44bbpf" path="res://assets/math/theta/death.png" id="1_l3lss"]
+[ext_resource type="Script" uid="uid://bhgcofomdoi78" path="res://scenes/envy (math)/theta/theta.gd" id="1_ywo6q"]
 [ext_resource type="Texture2D" uid="uid://cyk4pngh24rey" path="res://assets/math/theta/idle.png" id="2_l3lss"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ywo6q"]
@@ -66,7 +67,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nqm7d")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"death",
 "speed": 5.0
 }, {
@@ -101,8 +102,9 @@ animations = [{
 }]
 
 [node name="theta" type="CharacterBody2D" unique_id=2141416358]
+script = ExtResource("1_ywo6q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2062280052]
 sprite_frames = SubResource("SpriteFrames_s7wsd")
-animation = &"idle"
+animation = &"death"
 autoplay = "idle"

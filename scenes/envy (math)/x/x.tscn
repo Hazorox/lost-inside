@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dhmf1yelfd5kt"]
 
+[ext_resource type="Script" uid="uid://b54ju8txvjcng" path="res://scenes/envy (math)/x/x.gd" id="1_57sd1"]
 [ext_resource type="Texture2D" uid="uid://b0v1ro38vdof6" path="res://assets/math/x/death.png" id="1_vxgh8"]
 [ext_resource type="Texture2D" uid="uid://dn3e8nruqha5b" path="res://assets/math/x/x.png" id="2_8fx2w"]
 
@@ -34,7 +35,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_e1qni")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"death",
 "speed": 5.0
 }, {
@@ -47,10 +48,37 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s7wsd"]
+size = Vector2(12, 13)
+
+[sub_resource type="GDScript" id="GDScript_a16n2"]
+script/source = "extends CollisionShape2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
 [node name="x" type="CharacterBody2D" unique_id=1295905026]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_57sd1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1073749996]
+position = Vector2(1.9073486e-06, 1.9073486e-06)
+scale = Vector2(0.3125, 0.3125)
 sprite_frames = SubResource("SpriteFrames_s7wsd")
 animation = &"death"
 autoplay = "idle"
 frame_progress = 0.8144365
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=657292653]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_s7wsd")
+script = SubResource("GDScript_a16n2")

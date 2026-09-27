@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="lost-inside"
+run/main_scene="uid://c0ixlvk6v78k"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="uid://dwrci5f0tet2"
+
+[autoload]
+
+GameManager="*uid://cj2dv0vqiywm0"
 
 [display]
 
