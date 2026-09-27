@@ -1,6 +1,5 @@
 [gd_scene format=4 uid="uid://bc2317r56eoou"]
 
-<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://dwh3u0wndipcl" path="res://assets/Dungeon/PNG/walls_floor.png" id="1_8hln8"]
 [ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
 [ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
@@ -292,10 +291,6 @@ texture = ExtResource("1_8hln8")
 
 [sub_resource type="TileSet" id="TileSet_vqf1n"]
 sources/0 = SubResource("TileSetAtlasSource_ykl68")
-=======
-[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
-[ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/Dungeon/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
->>>>>>> origin/main
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vqf1n"]
 texture = ExtResource("1_fgl6e")
