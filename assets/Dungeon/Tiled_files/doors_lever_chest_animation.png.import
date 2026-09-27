@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://iwkw8fyrntbd"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/doors_lever_chest_animation.png.import
-path="res://.godot/imported/doors_lever_chest_animation.png-7a5b5a3c1cf7e3cffb3771be326f5de9.ctex"
-========
-path="res://.godot/imported/doors_lever_chest_animation.png-0291c5642260efc36787e58a5ba9c812.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png.import
+uid="uid://bihjl7lrtqg6x"
+path="res://.godot/imported/doors_lever_chest_animation.png-6775a1926160441bd2a672149f76ddab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/doors_lever_chest_animation.png.import
-source_file="res://assets/Dungeon/Tiled_files/doors_lever_chest_animation.png"
-dest_files=["res://.godot/imported/doors_lever_chest_animation.png-7a5b5a3c1cf7e3cffb3771be326f5de9.ctex"]
-========
-source_file="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png"
-dest_files=["res://.godot/imported/doors_lever_chest_animation.png-0291c5642260efc36787e58a5ba9c812.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png.import
+source_file="res://assets/dungeon/Tiled_files/doors_lever_chest_animation.png"
+dest_files=["res://.godot/imported/doors_lever_chest_animation.png-6775a1926160441bd2a672149f76ddab.ctex"]
 
 [params]
 

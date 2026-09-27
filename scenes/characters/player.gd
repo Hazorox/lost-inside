@@ -5,7 +5,7 @@ extends CharacterBody2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 @onready var player: Player = $"."
 
-@export var speed := 200
+var speed := 200
 
 enum State{
 	IDLE,
@@ -20,7 +20,7 @@ func _ready() -> void:
 	pass
 
 func _process(_delta: float) -> void:
-	var direction = Input.get_vector("ui_left","ui_right","ui_up","ui_down")
+	var direction = Input.get_vector("left","right","up","down")
 	velocity = direction * speed
 	move_and_slide()
 	set_heading()
@@ -93,3 +93,7 @@ func flip_sprites() -> void:
 		player_sprite.flip_h = false
 	elif heading == Vector2.LEFT:
 		player_sprite.flip_h = true
+
+func _on_damage_reciever_area_entered(area: Area2D) -> void:
+	if area.is_in_group("damage_emitter"):
+		print("you've been damaged")

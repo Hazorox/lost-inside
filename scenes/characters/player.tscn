@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://c6t34tvx2bn7l"]
 
+[ext_resource type="Texture2D" uid="uid://pa7jkpyb1bvg" path="res://assets/hero/player.png" id="1_rp718"]
 [ext_resource type="Script" uid="uid://b03wt5gqw7itj" path="res://scenes/characters/player.gd" id="1_yewv4"]
+[ext_resource type="Texture2D" uid="uid://cn825f880vbe" path="res://assets/math/theta/theta.png" id="2_yewv4"]
 
 [sub_resource type="Animation" id="Animation_yewv4"]
 length = 0.001
@@ -194,12 +196,21 @@ _data = {
 radius = 2.0
 height = 8.0
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ad8vj"]
+radius = 4.666667
+height = 10.666666
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_onkbk"]
+radius = 5.3333335
+height = 16.0
+
 [node name="Player" type="CharacterBody2D" unique_id=1071187316 groups=["player"]]
 scale = Vector2(1.5, 1.5)
 script = ExtResource("1_yewv4")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=458075948]
 position = Vector2(0, -18)
+texture = ExtResource("2_yewv4")
 hframes = 6
 vframes = 10
 
@@ -211,3 +222,17 @@ autoplay = &"front_idle"
 position = Vector2(-3.5527137e-15, -0.6666666)
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_yewv4")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=655440403 groups=["player"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=267317613]
+position = Vector2(0.6666667, -7.9999995)
+shape = SubResource("CapsuleShape2D_ad8vj")
+
+[node name="DamageReciever" type="Area2D" parent="." unique_id=1142891551]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamageReciever" unique_id=2055686793]
+position = Vector2(0.6666667, -6.666667)
+shape = SubResource("CapsuleShape2D_onkbk")
+
+[connection signal="area_entered" from="DamageReciever" to="." method="_on_damage_reciever_area_entered"]

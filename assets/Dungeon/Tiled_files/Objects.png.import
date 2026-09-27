@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bh5e20flw02uh"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/Objects.png.import
-path="res://.godot/imported/Objects.png-bf9b7028f1c6a82ba2576f5fb89ad5f0.ctex"
-========
-path="res://.godot/imported/Objects.png-c50c384a1f3522a0e3bb7df730f874af.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/Objects.png.import
+uid="uid://cypbie7leabi8"
+path="res://.godot/imported/Objects.png-61b86601d5f39edb6250518332008e46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/Objects.png.import
-source_file="res://assets/Dungeon/Tiled_files/Objects.png"
-dest_files=["res://.godot/imported/Objects.png-bf9b7028f1c6a82ba2576f5fb89ad5f0.ctex"]
-========
-source_file="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png"
-dest_files=["res://.godot/imported/Objects.png-c50c384a1f3522a0e3bb7df730f874af.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/Objects.png.import
+source_file="res://assets/dungeon/Tiled_files/Objects.png"
+dest_files=["res://.godot/imported/Objects.png-61b86601d5f39edb6250518332008e46.ctex"]
 
 [params]
 
