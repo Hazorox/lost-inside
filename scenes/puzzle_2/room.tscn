@@ -5,7 +5,6 @@
 [ext_resource type="Script" uid="uid://dcuef2ulnniuf" path="res://scenes/puzzle_2/chest.gd" id="2_f28th"]
 [ext_resource type="PackedScene" uid="uid://dpne2s38jkg71" path="res://scenes/puzzle_2/emitter.tscn" id="3_rv6uj"]
 [ext_resource type="Script" uid="uid://fsoef2vcadyj" path="res://scenes/puzzle_2/trap_chest.gd" id="3_smgoy"]
-[ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="6_smgoy"]
 [ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="7_smgoy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
@@ -73,14 +72,14 @@ tile_set = ExtResource("1_d7m5o")
 
 [node name="Mirror" parent="." unique_id=1778676005 instance=ExtResource("2_7ovdv")]
 position = Vector2(246, 140)
+dir = Vector2(-1, 0)
 
 [node name="Mirror2" parent="." unique_id=602620579 instance=ExtResource("2_7ovdv")]
 position = Vector2(529, 146)
-dir = Vector2(0, 1)
 
 [node name="Mirror3" parent="." unique_id=557496113 instance=ExtResource("2_7ovdv")]
 position = Vector2(527, 512)
-dir = Vector2(-1, 0)
+dir = Vector2(0, -1)
 
 [node name="Mirror4" parent="." unique_id=663326058 instance=ExtResource("2_7ovdv")]
 position = Vector2(397, 512)
@@ -88,19 +87,19 @@ dir = Vector2(0, 1)
 
 [node name="Mirror5" parent="." unique_id=574223908 instance=ExtResource("2_7ovdv")]
 position = Vector2(395, 632)
+dir = Vector2(0, -1)
 
 [node name="Mirror6" parent="." unique_id=321838863 instance=ExtResource("2_7ovdv")]
 position = Vector2(687, 639)
+dir = Vector2(-1, 0)
 
 [node name="Mirror7" parent="." unique_id=1621315180 instance=ExtResource("2_7ovdv")]
 position = Vector2(1186, 626)
+dir = Vector2(0, 1)
 
 [node name="Emitter" parent="." unique_id=535459778 instance=ExtResource("3_rv6uj")]
 position = Vector2(264, 656)
 collision_mask = 1
-
-[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("6_smgoy")]
-position = Vector2(135, 230)
 
 [node name="door" type="Area2D" parent="." unique_id=1841199795]
 
