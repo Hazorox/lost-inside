@@ -5,11 +5,31 @@
 [ext_resource type="Script" uid="uid://dcuef2ulnniuf" path="res://scenes/puzzle_2/chest.gd" id="2_f28th"]
 [ext_resource type="PackedScene" uid="uid://dpne2s38jkg71" path="res://scenes/puzzle_2/emitter.tscn" id="3_rv6uj"]
 [ext_resource type="Script" uid="uid://fsoef2vcadyj" path="res://scenes/puzzle_2/trap_chest.gd" id="3_smgoy"]
-[ext_resource type="PackedScene" uid="uid://bsh36vdx3f8o2" path="res://scenes/test_player/test_player.tscn" id="4_6m5uk"]
+[ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="6_smgoy"]
+[ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="7_smgoy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_0hvcy"]
+radius = 95.0
+
 [node name="Room" type="Node2D" unique_id=1697959231]
+
+[node name="outer" type="StaticBody2D" parent="." unique_id=369521893]
+position = Vector2(48, 124)
+collision_mask = 0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="outer" unique_id=1168768945]
+build_mode = 1
+polygon = PackedVector2Array(0, -2, -1, 557, 241, 553, 243, 88, 300, 87, 305, 553, 1183, 553, 1180, -1, 583, 2, 583, 468, 520, 469, 517, -3)
+
+[node name="inner" type="StaticBody2D" parent="." unique_id=450338666]
+position = Vector2(942, 612)
+collision_mask = 0
+collision_priority = 4.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="inner" unique_id=962931242]
+polygon = PackedVector2Array(3, 5, -22, 3, -17, -149, -195, -148, -195, -249, -16, -245, -17, -383, 12, -383, 16, -248, 192, -248, 194, -149, 15, -146, 18, 2, -2, -4)
 
 [node name="base" type="TileMapLayer" parent="." unique_id=514823559]
 scale = Vector2(2.5, 2.5)
@@ -26,13 +46,16 @@ position = Vector2(1216, 137)
 scale = Vector2(2.5, 2.5)
 script = ExtResource("2_f28th")
 
-[node name="TileMapLayer" type="TileMapLayer" parent="chest" unique_id=1446012734]
+[node name="chest" type="TileMapLayer" parent="chest" unique_id=1446012734]
 tile_map_data = PackedByteArray("AAD+/wAABAAIAAAAAAD+/wEABAAIAAEAAAD//wAABAAJAAAAAAD//wEABAAJAAEAAAA=")
 tile_set = ExtResource("1_d7m5o")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chest" unique_id=40132567]
 position = Vector2(-15.600006, 11.999996)
 shape = SubResource("CircleShape2D_nfrx5")
+
+[node name="key" type="TileMapLayer" parent="chest" unique_id=2139705740]
+tile_set = ExtResource("1_d7m5o")
 
 [node name="trap_chest" type="StaticBody2D" parent="." unique_id=1283012505 groups=["chest"]]
 position = Vector2(720.0001, 137)
@@ -76,23 +99,14 @@ position = Vector2(1186, 626)
 position = Vector2(264, 656)
 collision_mask = 1
 
-[node name="TestPlayer" parent="." unique_id=508890332 instance=ExtResource("4_6m5uk")]
-position = Vector2(159, 306)
-scale = Vector2(2, 2)
+[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("6_smgoy")]
+position = Vector2(135, 230)
 
-[node name="room_bounds" type="Node2D" parent="." unique_id=393467730]
-position = Vector2(48, 124)
+[node name="door" type="Area2D" parent="." unique_id=1841199795]
 
-[node name="outer" type="StaticBody2D" parent="room_bounds" unique_id=369521893]
-collision_mask = 0
+[node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=456161780]
+position = Vector2(923, 86)
+shape = SubResource("CircleShape2D_0hvcy")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="room_bounds/outer" unique_id=1168768945]
-build_mode = 1
-polygon = PackedVector2Array(0, -2, -1, 557, 241, 553, 243, 88, 300, 87, 305, 553, 1183, 553, 1180, -1, 583, 2, 583, 468, 520, 469, 517, -3)
-
-[node name="inner" type="StaticBody2D" parent="room_bounds" unique_id=450338666]
-position = Vector2(894, 488)
-collision_mask = 0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="room_bounds/inner" unique_id=962931242]
-polygon = PackedVector2Array(3, 5, -22, 3, -17, -149, -195, -148, -195, -249, -16, -245, -17, -383, 12, -383, 16, -248, 192, -248, 194, -149, 15, -146, 18, 2, -2, -4)
+[node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("7_smgoy")]
+visible = false

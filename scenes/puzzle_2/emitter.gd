@@ -34,7 +34,7 @@ func cast()->void:
 			current_dir = result.collider.get_parent().dir.normalized()
 			current_pos = result.position + current_dir * 2.0
 		elif result.collider.is_in_group("chest"):
-			result.collider.get_parent().boom()
+			result.collider.boom()
 		else:
 			break
 			

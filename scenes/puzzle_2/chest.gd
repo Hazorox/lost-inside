@@ -1,11 +1,31 @@
 extends StaticBody2D
 
+# Managing both door and chest here
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
+@onready var door:Area2D = $"../door"
+@onready var tilemap:TileMapLayer = $chest
+var door_ready :=false
+var interactable := false
+
+func _ready()->void:
+	door.body_entered.connect(on_body_entered)
+	door.body_exited.connect(on_body_exited)
+
+func _process(_delta: float) -> void:
+	if Input.is_action_just_pressed("interact") and interactable and door_ready:
+		print("MAWWWWWWW")
+		get_tree().change_scene_to_file("res://scenes/5/room.tscn")
+
+func boom()->void:
+	# DIALOG U WERE GIVEN THE KEY
+	tilemap.visible=false
+	door_ready = true
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func on_body_entered(body:Node2D)->void:
+	if body.is_in_group("player"):
+		print("PLAYER GONNA INTERACT")
+		interactable = true
+func on_body_exited(body:Node2D)->void:
+	if body.is_in_group("player"):
+		interactable=false
