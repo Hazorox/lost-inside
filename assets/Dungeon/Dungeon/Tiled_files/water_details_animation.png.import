@@ -3,21 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtfef62earrqe"
-path="res://.godot/imported/water_details_animation.png-c6661bf5585edbc639d184daef5b99fb.ctex"
+path="res://.godot/imported/water_details_animation.png-6663f0bbb9f229f33e1b39fa6ee49af8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/Dungeon/Tiled_files/water_details_animation.png"
-dest_files=["res://.godot/imported/water_details_animation.png-c6661bf5585edbc639d184daef5b99fb.ctex"]
+source_file="res://assets/Dungeon/Dungeon/Tiled_files/water_details_animation.png"
+dest_files=["res://.godot/imported/water_details_animation.png-6663f0bbb9f229f33e1b39fa6ee49af8.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
-compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -26,8 +25,6 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
-mipmaps/preserve_alpha_test_coverage=false
-mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0

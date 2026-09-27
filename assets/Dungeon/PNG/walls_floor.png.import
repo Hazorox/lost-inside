@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0ejf0aykydck"
-path="res://.godot/imported/walls_floor.png-fd620f6f604735532ddb4a7083740a46.ctex"
+path="res://.godot/imported/walls_floor.png-f6da438d3da2c14d2607a2d7aed43046.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/PNG/walls_floor.png"
-dest_files=["res://.godot/imported/walls_floor.png-fd620f6f604735532ddb4a7083740a46.ctex"]
+source_file="res://assets/Dungeon/PNG/walls_floor.png"
+dest_files=["res://.godot/imported/walls_floor.png-f6da438d3da2c14d2607a2d7aed43046.ctex"]
 
 [params]
 
