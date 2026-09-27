@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yr0mfknphh6s"
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_dead_tree.png.import
-path="res://.godot/imported/spr_dead_tree.png-8ee68296a845b9a3077376b784d8d259.ctex"
-========
+uid="uid://co7wneifw41n6"
 path="res://.godot/imported/spr_dead_tree.png-5a67575d1a2a2b8f9d3637720e870027.ctex"
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_dead_tree.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_dead_tree.png.import
-source_file="res://assets/Haunted Garden Grounds/spr_dead_tree.png"
-dest_files=["res://.godot/imported/spr_dead_tree.png-8ee68296a845b9a3077376b784d8d259.ctex"]
-========
 source_file="res://assets/Dungeon/Haunted Garden Grounds/spr_dead_tree.png"
 dest_files=["res://.godot/imported/spr_dead_tree.png-5a67575d1a2a2b8f9d3637720e870027.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_dead_tree.png.import
 
 [params]
 

@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c04qcfkg6p6r0"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png.import
-path="res://.godot/imported/paper doll demonstration.png-9f4bd04df28aff0eb39e34bdb302afe1.ctex"
-========
+uid="uid://ds83vrcn3lkg8"
 path="res://.godot/imported/paper doll demonstration.png-4412e3977c6400dc4f4ce20f3e73dd49.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png"
-dest_files=["res://.godot/imported/paper doll demonstration.png-9f4bd04df28aff0eb39e34bdb302afe1.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png"
 dest_files=["res://.godot/imported/paper doll demonstration.png-4412e3977c6400dc4f4ce20f3e73dd49.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/paper doll demonstration.png.import
 
 [params]
 

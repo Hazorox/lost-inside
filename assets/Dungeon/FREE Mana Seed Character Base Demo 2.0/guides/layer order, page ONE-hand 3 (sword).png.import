@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqjup6jv3qeyd"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png.import
-path="res://.godot/imported/layer order, page ONE-hand 3 (sword).png-26269cca832fc1ad3c329bad6a096777.ctex"
-========
+uid="uid://d12q7va6fwsw2"
 path="res://.godot/imported/layer order, page ONE-hand 3 (sword).png-d1bd6f5a7101d4903e2f46805cc19bc2.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png"
-dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (sword).png-26269cca832fc1ad3c329bad6a096777.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png"
 dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (sword).png-d1bd6f5a7101d4903e2f46805cc19bc2.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (sword).png.import
 
 [params]
 

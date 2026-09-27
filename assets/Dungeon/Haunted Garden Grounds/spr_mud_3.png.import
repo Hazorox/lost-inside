@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhdnlqpfs4wtc"
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_mud_3.png.import
-path="res://.godot/imported/spr_mud_3.png-bd18654b7de9f6c415c617f91a467e4b.ctex"
-========
+uid="uid://1adfffrkqfx8"
 path="res://.godot/imported/spr_mud_3.png-75d60975fbd8b4031f7aacb11719f467.ctex"
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_mud_3.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_mud_3.png.import
-source_file="res://assets/Haunted Garden Grounds/spr_mud_3.png"
-dest_files=["res://.godot/imported/spr_mud_3.png-bd18654b7de9f6c415c617f91a467e4b.ctex"]
-========
 source_file="res://assets/Dungeon/Haunted Garden Grounds/spr_mud_3.png"
 dest_files=["res://.godot/imported/spr_mud_3.png-75d60975fbd8b4031f7aacb11719f467.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_mud_3.png.import
 
 [params]
 

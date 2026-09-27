@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdjx3vd785f7o"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png.import
-path="res://.godot/imported/layer order, page 1 (sword).png-800f7bb7bf2a35f80cf1f15eb37a08b8.ctex"
-========
+uid="uid://b414sqvma7d42"
 path="res://.godot/imported/layer order, page 1 (sword).png-b91c921f5c4732034833d08705a48408.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png"
-dest_files=["res://.godot/imported/layer order, page 1 (sword).png-800f7bb7bf2a35f80cf1f15eb37a08b8.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png"
 dest_files=["res://.godot/imported/layer order, page 1 (sword).png-b91c921f5c4732034833d08705a48408.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (sword).png.import
 
 [params]
 
