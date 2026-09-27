@@ -10,7 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://tjv8pjfrmpb0" path="res://scenes/characters/blood_monester.tscn" id="8_aj028"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ykl68"]
-texture = ExtResource("1_8hln8")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -296,7 +295,6 @@ texture = ExtResource("1_8hln8")
 sources/0 = SubResource("TileSetAtlasSource_ykl68")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vqf1n"]
-texture = ExtResource("1_fgl6e")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -582,7 +580,6 @@ texture = ExtResource("1_fgl6e")
 sources/0 = SubResource("TileSetAtlasSource_vqf1n")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i67be"]
-texture = ExtResource("1_8hln8")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -871,7 +868,6 @@ sources/0 = SubResource("TileSetAtlasSource_i67be")
 texture = ExtResource("2_l3biw")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_crgmj"]
-texture = ExtResource("1_fgl6e")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0

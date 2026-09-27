@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://fiomn6l5nkqq"]
+
+[ext_resource type="Script" uid="uid://crjnh88jkdjjs" path="res://scenes/envy (math)/projectiles/derivative.gd" id="1_caq48"]
+[ext_resource type="Texture2D" uid="uid://biy5jdkudjdf7" path="res://assets/math/integral.png" id="1_xri31"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_djj88"]
+radius = 6.5
+height = 56.5
+
+[node name="integral" type="Area2D" unique_id=924477173]
+scale = Vector2(0.5, 0.5)
+collision_layer = 64
+script = ExtResource("1_caq48")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=303801470]
+texture = ExtResource("1_xri31")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=832289548]
+position = Vector2(-3.5, 0.75)
+shape = SubResource("CapsuleShape2D_djj88")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=913005399]
+rect = Rect2(-3, -28, 7, 57)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
