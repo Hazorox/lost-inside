@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://dhmf1yelfd5kt"]
+
+[ext_resource type="Texture2D" uid="uid://b0v1ro38vdof6" path="res://assets/math/x/death.png" id="1_vxgh8"]
+[ext_resource type="Texture2D" uid="uid://dn3e8nruqha5b" path="res://assets/math/x/x.png" id="2_8fx2w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fx2w"]
+atlas = ExtResource("1_vxgh8")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_57sd1"]
+atlas = ExtResource("1_vxgh8")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a16n2"]
+atlas = ExtResource("1_vxgh8")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e1qni"]
+atlas = ExtResource("1_vxgh8")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s7wsd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fx2w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_57sd1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a16n2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e1qni")
+}],
+"loop": 1,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8fx2w")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="x" type="CharacterBody2D" unique_id=1295905026]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1073749996]
+sprite_frames = SubResource("SpriteFrames_s7wsd")
+animation = &"death"
+autoplay = "idle"
+frame_progress = 0.8144365
