@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i76xuw2m8lv0"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png.import
-path="res://.godot/imported/decorative_cracks_coasts_animation.png-b2f9608bf4fa50a509b9d4f928214247.ctex"
-========
-path="res://.godot/imported/decorative_cracks_coasts_animation.png-ad03d567f23b063a083668d6949e0b8f.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png.import
+uid="uid://fjjkpghoy7u5"
+path="res://.godot/imported/decorative_cracks_coasts_animation.png-759fb1414b7efd9e72758552520975eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png.import
-source_file="res://assets/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png"
-dest_files=["res://.godot/imported/decorative_cracks_coasts_animation.png-b2f9608bf4fa50a509b9d4f928214247.ctex"]
-========
-source_file="res://assets/Dungeon/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png"
-dest_files=["res://.godot/imported/decorative_cracks_coasts_animation.png-ad03d567f23b063a083668d6949e0b8f.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/decorative_cracks_coasts_animation.png.import
+source_file="res://assets/dungeon/Tiled_files/decorative_cracks_coasts_animation.png"
+dest_files=["res://.godot/imported/decorative_cracks_coasts_animation.png-759fb1414b7efd9e72758552520975eb.ctex"]
 
 [params]
 

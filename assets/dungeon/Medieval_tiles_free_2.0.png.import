@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3oor3q0lh6js"
-path="res://.godot/imported/Medieval_tiles_free_2.0.png-f5401ed49fd9751ddfb24d6633401c39.ctex"
+path="res://.godot/imported/Medieval_tiles_free_2.0.png-93bbe96972bc3a01ec92f02602ed2643.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Dungeon/Medieval_tiles_free_2.0.png"
-dest_files=["res://.godot/imported/Medieval_tiles_free_2.0.png-f5401ed49fd9751ddfb24d6633401c39.ctex"]
+source_file="res://assets/dungeon/Medieval_tiles_free_2.0.png"
+dest_files=["res://.godot/imported/Medieval_tiles_free_2.0.png-93bbe96972bc3a01ec92f02602ed2643.ctex"]
 
 [params]
 

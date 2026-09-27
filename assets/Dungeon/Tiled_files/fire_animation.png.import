@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0de1pphs7jvn"
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/fire_animation.png.import
-path="res://.godot/imported/fire_animation.png-d90231f1e208aba03b6c13f4e2253bba.ctex"
-========
-path="res://.godot/imported/fire_animation.png-a519bf42f19dc6165ebcf8b8de1488a4.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/fire_animation.png.import
+uid="uid://bjlb31114kni6"
+path="res://.godot/imported/fire_animation.png-651db736b0ccc4c7506217b7d72f82bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/Tiled_files/fire_animation.png.import
-source_file="res://assets/Dungeon/Tiled_files/fire_animation.png"
-dest_files=["res://.godot/imported/fire_animation.png-d90231f1e208aba03b6c13f4e2253bba.ctex"]
-========
-source_file="res://assets/Dungeon/Dungeon/Tiled_files/fire_animation.png"
-dest_files=["res://.godot/imported/fire_animation.png-a519bf42f19dc6165ebcf8b8de1488a4.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/Tiled_files/fire_animation.png.import
+source_file="res://assets/dungeon/Tiled_files/fire_animation.png"
+dest_files=["res://.godot/imported/fire_animation.png-651db736b0ccc4c7506217b7d72f82bc.ctex"]
 
 [params]
 

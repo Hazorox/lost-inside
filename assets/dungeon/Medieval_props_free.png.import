@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbo6hu8d24gx"
-path="res://.godot/imported/Medieval_props_free.png-2e55043f0c1c871113f725e499370c24.ctex"
+path="res://.godot/imported/Medieval_props_free.png-82195589c421e2f694c124e77bad7f50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Dungeon/Medieval_props_free.png"
-dest_files=["res://.godot/imported/Medieval_props_free.png-2e55043f0c1c871113f725e499370c24.ctex"]
+source_file="res://assets/dungeon/Medieval_props_free.png"
+dest_files=["res://.godot/imported/Medieval_props_free.png-82195589c421e2f694c124e77bad7f50.ctex"]
 
 [params]
 

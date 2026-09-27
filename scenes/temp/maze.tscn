@@ -1,8 +1,8 @@
 [gd_scene format=4 uid="uid://bc2317r56eoou"]
 
-[ext_resource type="Texture2D" uid="uid://dwh3u0wndipcl" path="res://assets/Dungeon/PNG/walls_floor.png" id="1_8hln8"]
-[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
-[ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
+[ext_resource type="Texture2D" uid="uid://d0ejf0aykydck" path="res://assets/Dungeon/PNG/walls_floor.png" id="1_8hln8"]
+[ext_resource type="Texture2D" uid="uid://d3gd4nstirnm6" path="res://assets/Dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
+[ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/dungeon/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
 [ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="3_l3biw"]
 [ext_resource type="PackedScene" uid="uid://cv5jbf1am4jr8" path="res://scenes/characters/demon.tscn" id="4_vqf1n"]
 
@@ -1457,7 +1457,7 @@ position = Vector2(384, -2)
 polygon = PackedVector2Array(1094, 307, 1115, 307, 1115, 229, 1094, 229)
 
 [node name="Player" parent="." unique_id=1071187316 instance=ExtResource("3_l3biw")]
-position = Vector2(-572, 166)
+position = Vector2(446, 200)
 speed = 1000
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=156019664]

@@ -2,31 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/Monsters/Demon_A/Demon_A/Demon_A_Idle.png.import
-uid="uid://vpufrl4igeoy"
+uid="uid://cswj850prqn0a"
 path="res://.godot/imported/Demon_A_Idle.png-4925fa8ec41ba4392b63e47862153a4b.ctex"
-========
-uid="uid://dhton5rqfetbl"
-path="res://.godot/imported/Monster02-1.png-cf95452758257bc77b5c23230f85f4e5.ctex"
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/Monster02-1.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Monsters/Demon_A/Demon_A/Demon_A_Idle.png.import
 source_file="res://assets/Monsters/Demon_A/Demon_A/Demon_A_Idle.png"
 dest_files=["res://.godot/imported/Demon_A_Idle.png-4925fa8ec41ba4392b63e47862153a4b.ctex"]
-========
-source_file="res://assets/Dungeon/Monsters Pack/Monster02-1.png"
-dest_files=["res://.godot/imported/Monster02-1.png-cf95452758257bc77b5c23230f85f4e5.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/Monster02-1.png.import
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
+compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -35,6 +26,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
+mipmaps/preserve_alpha_test_coverage=false
+mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0

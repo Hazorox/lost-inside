@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi7cvrcc7ggyn"
-path="res://.godot/imported/Water_coasts_animation.png-e09366f96495c6b269a8532c2047ddf5.ctex"
+uid="uid://cvm2wf8l7186f"
+path="res://.godot/imported/Water_coasts_animation.png-6670712e816dac5bd14957996fa2375d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Dungeon/Tiled_files/Water_coasts_animation.png"
-dest_files=["res://.godot/imported/Water_coasts_animation.png-e09366f96495c6b269a8532c2047ddf5.ctex"]
+source_file="res://assets/dungeon/Tiled_files/Water_coasts_animation.png"
+dest_files=["res://.godot/imported/Water_coasts_animation.png-6670712e816dac5bd14957996fa2375d.ctex"]
 
 [params]
 

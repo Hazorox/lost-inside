@@ -2,30 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdb2x0bo1a30t"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png.import
+uid="uid://dk6oasfdwrqal"
 path="res://.godot/imported/char_a_pONE3_5hat_pfht_v02.png-15e2e601d3af983ff8aa06cddaabc636.ctex"
-========
-path="res://.godot/imported/char_a_pONE3_5hat_pfht_v02.png-4a74a7f46897fb53c6f97fc54b869756.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png.import
 source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png"
 dest_files=["res://.godot/imported/char_a_pONE3_5hat_pfht_v02.png-15e2e601d3af983ff8aa06cddaabc636.ctex"]
-========
-source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png"
-dest_files=["res://.godot/imported/char_a_pONE3_5hat_pfht_v02.png-4a74a7f46897fb53c6f97fc54b869756.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/5hat/char_a_pONE3_5hat_pfht_v02.png.import
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
+compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -34,6 +26,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
+mipmaps/preserve_alpha_test_coverage=false
+mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0
