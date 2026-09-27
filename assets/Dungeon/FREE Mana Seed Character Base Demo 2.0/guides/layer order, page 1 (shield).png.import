@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3pid6gopmsd6"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png.import
-path="res://.godot/imported/layer order, page 1 (shield).png-acaa4a01e363472fdeabba54981a9b4b.ctex"
-========
+uid="uid://dg8g715hnx1a2"
 path="res://.godot/imported/layer order, page 1 (shield).png-87a7e7c1092385fbb474b3672ba35bae.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png"
-dest_files=["res://.godot/imported/layer order, page 1 (shield).png-acaa4a01e363472fdeabba54981a9b4b.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png"
 dest_files=["res://.godot/imported/layer order, page 1 (shield).png-87a7e7c1092385fbb474b3672ba35bae.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page 1 (shield).png.import
 
 [params]
 

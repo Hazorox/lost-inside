@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br0pmkokyp17n"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png.import
-path="res://.godot/imported/animations, page ONE-hand 1.png-60cb2b14a1b4a444d9453f01b480be12.ctex"
-========
+uid="uid://dp0s2ejwo73ek"
 path="res://.godot/imported/animations, page ONE-hand 1.png-dfc4874ffa3f0142af3cde1cb0b558f2.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png"
-dest_files=["res://.godot/imported/animations, page ONE-hand 1.png-60cb2b14a1b4a444d9453f01b480be12.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png"
 dest_files=["res://.godot/imported/animations, page ONE-hand 1.png-dfc4874ffa3f0142af3cde1cb0b558f2.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/animations, page ONE-hand 1.png.import
 
 [params]
 

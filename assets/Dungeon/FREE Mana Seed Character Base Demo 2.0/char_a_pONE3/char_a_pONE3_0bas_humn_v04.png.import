@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gqglhxdlrtpy"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png.import
-path="res://.godot/imported/char_a_pONE3_0bas_humn_v04.png-71ade5122d8aec40230e66f169a7b5dc.ctex"
-========
+uid="uid://dl4grnaxtgrfv"
 path="res://.godot/imported/char_a_pONE3_0bas_humn_v04.png-3ec63770a389252e9f20071013868209.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png"
-dest_files=["res://.godot/imported/char_a_pONE3_0bas_humn_v04.png-71ade5122d8aec40230e66f169a7b5dc.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png"
 dest_files=["res://.godot/imported/char_a_pONE3_0bas_humn_v04.png-3ec63770a389252e9f20071013868209.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/char_a_pONE3_0bas_humn_v04.png.import
 
 [params]
 

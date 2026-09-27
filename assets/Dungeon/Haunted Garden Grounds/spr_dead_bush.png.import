@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhhcaroc3ayg"
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_dead_bush.png.import
-path="res://.godot/imported/spr_dead_bush.png-1177fbce789e5f059249a656d2b8a17c.ctex"
-========
+uid="uid://3hg2c2oqbspc"
 path="res://.godot/imported/spr_dead_bush.png-41dd0216070618eb1545adce29fe70a5.ctex"
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_dead_bush.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_dead_bush.png.import
-source_file="res://assets/Haunted Garden Grounds/spr_dead_bush.png"
-dest_files=["res://.godot/imported/spr_dead_bush.png-1177fbce789e5f059249a656d2b8a17c.ctex"]
-========
 source_file="res://assets/Dungeon/Haunted Garden Grounds/spr_dead_bush.png"
 dest_files=["res://.godot/imported/spr_dead_bush.png-41dd0216070618eb1545adce29fe70a5.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_dead_bush.png.import
 
 [params]
 

@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3amat3vmt5gu"
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png.import
-path="res://.godot/imported/layer order, page ONE-hand 3 (shield).png-1cd84705f23194f6893ebe3daa2f28f7.ctex"
-========
+uid="uid://bi7pt3i7rxemn"
 path="res://.godot/imported/layer order, page ONE-hand 3 (shield).png-113c18481639c0fb4dce5a6e2f614339.ctex"
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png.import
-source_file="res://assets/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png"
-dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (shield).png-1cd84705f23194f6893ebe3daa2f28f7.ctex"]
-========
 source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png"
 dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (shield).png-113c18481639c0fb4dce5a6e2f614339.ctex"]
->>>>>>>> origin/main:assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png.import
 
 [params]
 

@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dp1hahqw3sfhh"
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_fence.png.import
-path="res://.godot/imported/spr_fence.png-fe1c5ba18a272cebea2c78e5401e5352.ctex"
-========
+uid="uid://yme64l3cflx1"
 path="res://.godot/imported/spr_fence.png-f0b58492ac65f6d56e7fcd9bb3af6f0d.ctex"
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_fence.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_fence.png.import
-source_file="res://assets/Haunted Garden Grounds/spr_fence.png"
-dest_files=["res://.godot/imported/spr_fence.png-fe1c5ba18a272cebea2c78e5401e5352.ctex"]
-========
 source_file="res://assets/Dungeon/Haunted Garden Grounds/spr_fence.png"
 dest_files=["res://.godot/imported/spr_fence.png-f0b58492ac65f6d56e7fcd9bb3af6f0d.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_fence.png.import
 
 [params]
 

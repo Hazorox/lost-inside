@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drqiv4qdyulpf"
-<<<<<<<< HEAD:assets/Dungeon/PNG/fire_animation.png.import
-path="res://.godot/imported/fire_animation.png-ca88dc1b7eaa3df65f8784cef9c4f397.ctex"
-========
+uid="uid://fhc6yb8lrfac"
 path="res://.godot/imported/fire_animation.png-c3376676b25cd73bba0d0cc8bd7a5f32.ctex"
->>>>>>>> origin/main:assets/Dungeon/Dungeon/PNG/fire_animation.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Dungeon/PNG/fire_animation.png.import
-source_file="res://assets/Dungeon/PNG/fire_animation.png"
-dest_files=["res://.godot/imported/fire_animation.png-ca88dc1b7eaa3df65f8784cef9c4f397.ctex"]
-========
 source_file="res://assets/Dungeon/Dungeon/PNG/fire_animation.png"
 dest_files=["res://.godot/imported/fire_animation.png-c3376676b25cd73bba0d0cc8bd7a5f32.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Dungeon/PNG/fire_animation.png.import
 
 [params]
 
