@@ -195,7 +195,7 @@ _data = {
 radius = 2.0
 height = 8.0
 
-[node name="Player" type="CharacterBody2D" unique_id=1071187316]
+[node name="Player" type="CharacterBody2D" unique_id=1071187316 groups=["player"]]
 scale = Vector2(1.5, 1.5)
 script = ExtResource("1_yewv4")
 

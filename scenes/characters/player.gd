@@ -5,7 +5,7 @@ extends CharacterBody2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 @onready var player: Player = $"."
 
-@export var speed := 100
+@export var speed := 200
 
 enum State{
 	IDLE,

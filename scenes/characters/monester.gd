@@ -1,25 +1,39 @@
 extends CharacterBody2D
 
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var sprite_2d: Sprite2D = $Sprite2D
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const SPEED := 50
 
+var heading := Vector2.RIGHT
+var player : Player = null
 
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
+func _ready() -> void:
+	player = get_tree().get_first_node_in_group("player")
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+func _process(_delta: float) -> void:
+	set_heading()
+	flip_sprite()
+	set_animation()
+	if player.global_position - global_position < Vector2(100, 100):
+		var direction := ((player.global_position - global_position)).normalized()
+		velocity = direction * SPEED
+		move_and_slide()
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
+func set_heading() -> void:
+	if velocity.x > 0:
+		heading = Vector2.RIGHT
+	elif velocity.x < 0:
+		heading = Vector2.LEFT
+
+func flip_sprite() -> void:
+	if heading == Vector2.RIGHT:
+		sprite_2d.flip_h = false
+	elif heading == Vector2.LEFT:
+		sprite_2d.flip_h = true
+
+func set_animation() -> void:
+	if player.velocity != Vector2.ZERO:
+		animation_player.play("walking")
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
-	move_and_slide()
+		animation_player.play("idle")
