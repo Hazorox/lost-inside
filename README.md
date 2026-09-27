@@ -26,6 +26,7 @@ Then open with Godot 4.7
 You firstly spawn into a really huge maze that leads into multiple other rooms and stuff, navigate your way to the tree of life !!
 
 # Gallery
+![alt text](image-2.png)
 ![plates puzzle](image-1.png)
 ![laser puzzle](image.png)
 
