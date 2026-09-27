@@ -3,21 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5ael2d42owld"
-path="res://.godot/imported/one_0108_v03.png-ddec4242af8715b5977b6de7a87d0c03.ctex"
+path="res://.godot/imported/one_0108_v03.png-6e99de4cd154ef9a491262c896a9a898.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/FREE Mana Seed Character Base Demo 2.0/weapon sprites/one_0108_v03.png"
-dest_files=["res://.godot/imported/one_0108_v03.png-ddec4242af8715b5977b6de7a87d0c03.ctex"]
+source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/weapon sprites/one_0108_v03.png"
+dest_files=["res://.godot/imported/one_0108_v03.png-6e99de4cd154ef9a491262c896a9a898.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
-compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -26,8 +25,6 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
-mipmaps/preserve_alpha_test_coverage=false
-mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0

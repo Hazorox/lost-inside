@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c0ixlvk6v78k"]
 
 [ext_resource type="Texture2D" uid="uid://d3oor3q0lh6js" path="res://assets/Dungeon/Medieval_tiles_free_2.0.png" id="1_fc1hh"]
+[ext_resource type="Script" uid="uid://cineqtcnrp4pg" path="res://scenes/envy (math)/envy.gd" id="1_yfxqa"]
 [ext_resource type="PackedScene" uid="uid://bjq6bvqht0um2" path="res://scenes/dialog/dialog.tscn" id="2_1vlle"]
 [ext_resource type="PackedScene" uid="uid://1jfe5jo4fvm1" path="res://scenes/envy (math)/theta/theta.tscn" id="3_yfxqa"]
 [ext_resource type="PackedScene" uid="uid://dhmf1yelfd5kt" path="res://scenes/envy (math)/x/x.tscn" id="4_8yb0l"]
@@ -1434,6 +1435,7 @@ physics_layer_0/collision_mask = 2
 sources/0 = SubResource("TileSetAtlasSource_4bjue")
 
 [node name="envy" type="Node2D" unique_id=1803347007]
+script = ExtResource("1_yfxqa")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1552285751]
 physics_interpolation_mode = 1

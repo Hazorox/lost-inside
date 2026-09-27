@@ -3,21 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxu12uugwyndv"
-path="res://.godot/imported/Water_coasts_animation.png-81e0605ef0a0617f3894c1a0bc514494.ctex"
+path="res://.godot/imported/Water_coasts_animation.png-18f631cdd50449414d227ef1e703f0eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/Dungeon/PNG/Water_coasts_animation.png"
-dest_files=["res://.godot/imported/Water_coasts_animation.png-81e0605ef0a0617f3894c1a0bc514494.ctex"]
+source_file="res://assets/Dungeon/Dungeon/PNG/Water_coasts_animation.png"
+dest_files=["res://.godot/imported/Water_coasts_animation.png-18f631cdd50449414d227ef1e703f0eb.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
-compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -26,8 +25,6 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
-mipmaps/preserve_alpha_test_coverage=false
-mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0

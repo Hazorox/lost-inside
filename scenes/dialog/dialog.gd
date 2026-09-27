@@ -1,4 +1,3 @@
-class_name Dialouge
 extends CanvasLayer
 
 @onready var cont: Panel = $MarginContainer/Panel
@@ -21,8 +20,7 @@ enum STATE{
 func _ready() -> void:
 	hide_box()
 	print("ready")
-	add_queue("LOFTY, LEARN WEB", "theta", "res://assets/math/theta/theta.png", "res://assets/soundbeeps/soundbeep1.wav")
-	add_queue("LOFTY, LEARN WEB 67676767676767667676767676767677676767676776767677676767667767676","x", "res://assets/math/x/x.png", "res://assets/soundbeeps/soundbeep2.wav")
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	
 func hide_box():
 	cont.hide()
@@ -31,6 +29,7 @@ func hide_box():
 	end.text = ""
 	textbox.text = ""
 	sprite.hide()
+	get_tree().paused = false
 	
 func show_box():
 	cont.show()
@@ -66,7 +65,7 @@ func add_text(entry: Dictionary):
 	tween.finished.connect(_on_tween_finished)
 	audio.stream = load(sound)
 	play_audio()
-	
+	get_tree().paused = true
 	
 func _on_tween_finished():
 	end.text = "v"

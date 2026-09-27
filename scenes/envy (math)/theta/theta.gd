@@ -6,7 +6,7 @@ const INT = preload("res://scenes/envy (math)/projectiles/integral.tscn")
 @export var path: NodePath
 @onready var x: Node2D = get_node(path)
 
-var base = 0.8
+var base = 1.5
 var rate = 0.0
 var timer = 0.1
 
