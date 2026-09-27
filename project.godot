@@ -37,6 +37,7 @@ folder_colors={
 
 player=""
 box=""
+mirror=""
 
 [gui]
 

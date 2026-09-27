@@ -9,13 +9,15 @@ radius = 27.018513
 [sub_resource type="CircleShape2D" id="CircleShape2D_0hvcy"]
 radius = 37.0
 
-[node name="Mirror" type="Node2D" unique_id=1778676005]
+[node name="Mirror" type="Node2D" unique_id=1778676005 groups=["mirror"]]
 script = ExtResource("1_upde6")
 
 [node name="sprite" type="Sprite2D" parent="." unique_id=1797240335]
 texture = ExtResource("1_e1nh5")
 
 [node name="reflector" type="StaticBody2D" parent="." unique_id=199027553]
+collision_layer = 8
+collision_mask = 0
 
 [node name="collision" type="CollisionShape2D" parent="reflector" unique_id=28329141]
 shape = SubResource("CircleShape2D_nfrx5")
