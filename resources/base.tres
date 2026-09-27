@@ -1,13 +1,13 @@
 [gd_resource type="TileSet" format=3 uid="uid://bon1hao5ahgth"]
 
-[ext_resource type="Texture2D" uid="uid://dnm7e3bvv3bn2" path="res://assets/Dungeon/Dungeon/PNG/decorative_cracks_coasts_animation.png" id="1_jalgp"]
-[ext_resource type="Texture2D" uid="uid://dvm1kokoulfrs" path="res://assets/Dungeon/PNG/decorative_cracks_floor.png" id="2_je0c0"]
-[ext_resource type="Texture2D" uid="uid://dqsw0yf5rstbb" path="res://assets/Dungeon/PNG/decorative_cracks_walls.png" id="3_oqx5b"]
-[ext_resource type="Texture2D" uid="uid://bh41xoutd7lgi" path="res://assets/Dungeon/Dungeon/PNG/doors_lever_chest_animation.png" id="4_5vgxi"]
-[ext_resource type="Texture2D" uid="uid://dcacn20u4plau" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="5_ib5ol"]
-[ext_resource type="Texture2D" uid="uid://1xvfhqx00hw8" path="res://assets/Dungeon/Dungeon/PNG/trap_animation.png" id="6_62eep"]
-[ext_resource type="Texture2D" uid="uid://lvrg3ku44qyt" path="res://assets/Dungeon/Dungeon/PNG/walls_floor.png" id="7_3gme7"]
-[ext_resource type="Texture2D" uid="uid://bxu12uugwyndv" path="res://assets/Dungeon/PNG/Water_coasts_animation.png" id="8_tltd1"]
+[ext_resource type="Texture2D" uid="uid://dnm7e3bvv3bn2" path="res://assets/dungeon/Dungeon/PNG/decorative_cracks_coasts_animation.png" id="1_jalgp"]
+[ext_resource type="Texture2D" uid="uid://c2rw8u7mrot3i" path="res://assets/Dungeon/PNG/decorative_cracks_floor.png" id="2_je0c0"]
+[ext_resource type="Texture2D" uid="uid://dqsw0yf5rstbb" path="res://assets/dungeon/Dungeon/PNG/decorative_cracks_walls.png" id="3_oqx5b"]
+[ext_resource type="Texture2D" uid="uid://bh41xoutd7lgi" path="res://assets/dungeon/Dungeon/PNG/doors_lever_chest_animation.png" id="4_5vgxi"]
+[ext_resource type="Texture2D" uid="uid://dcacn20u4plau" path="res://assets/dungeon/Dungeon/PNG/Objects.png" id="5_ib5ol"]
+[ext_resource type="Texture2D" uid="uid://1xvfhqx00hw8" path="res://assets/dungeon/Dungeon/PNG/trap_animation.png" id="6_62eep"]
+[ext_resource type="Texture2D" uid="uid://lvrg3ku44qyt" path="res://assets/dungeon/Dungeon/PNG/walls_floor.png" id="7_3gme7"]
+[ext_resource type="Texture2D" uid="uid://bxu12uugwyndv" path="res://assets/dungeon/Dungeon/PNG/Water_coasts_animation.png" id="8_tltd1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8fpp7"]
 texture = ExtResource("1_jalgp")

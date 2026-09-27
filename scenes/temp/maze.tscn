@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://bc2317r56eoou"]
 
+[ext_resource type="Script" uid="uid://c1tn00cjs717o" path="res://scenes/temp/maze.gd" id="1_6bsp5"]
 [ext_resource type="Texture2D" uid="uid://d0ejf0aykydck" path="res://assets/dungeon/PNG/walls_floor.png" id="1_8hln8"]
 [ext_resource type="Texture2D" uid="uid://d3gd4nstirnm6" path="res://assets/dungeon/Tiled_files/walls_floor.png" id="1_fgl6e"]
 [ext_resource type="Texture2D" uid="uid://dtq4mkdxe5440" path="res://assets/dungeon/Dungeon/Tiled_files/decorative_cracks_walls.png" id="2_l3biw"]
@@ -8,6 +9,9 @@
 [ext_resource type="PackedScene" uid="uid://b1mgktrw0g538" path="res://assets/props/treasure.tscn" id="6_kthw7"]
 [ext_resource type="Script" uid="uid://doiexrnww52is" path="res://scenes/temp/rooms.gd" id="7_1x6h6"]
 [ext_resource type="PackedScene" uid="uid://tjv8pjfrmpb0" path="res://scenes/characters/blood_monester.tscn" id="8_aj028"]
+[ext_resource type="Script" uid="uid://cl4jk240reurd" path="res://scenes/temp/puzzle_1.gd" id="10_u5i4i"]
+[ext_resource type="Script" uid="uid://csccern72fd26" path="res://scenes/temp/puzzle_2.gd" id="11_m7g1j"]
+[ext_resource type="Script" uid="uid://b3a0aaencjtaj" path="res://scenes/temp/puzzle_3.gd" id="12_myb4j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ykl68"]
 texture = ExtResource("1_8hln8")
@@ -1175,7 +1179,17 @@ size = Vector2(40, 12)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6bsp5"]
 size = Vector2(35, 15)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ad8vj"]
+size = Vector2(175.5, 135)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qsmjc"]
+size = Vector2(54, 122)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q2gev"]
+size = Vector2(161, 183)
+
 [node name="Maze" type="Node2D" unique_id=474164409]
+script = ExtResource("1_6bsp5")
 
 [node name="Layers" type="Node2D" parent="." unique_id=902857285]
 
@@ -1630,6 +1644,34 @@ position = Vector2(-543, 22)
 
 [node name="BloodMonester3" parent="Rooms/Room_4/Enemies" unique_id=1920778404 instance=ExtResource("8_aj028")]
 position = Vector2(-554, -39)
+
+[node name="PuzzleCheckpoints" type="Node2D" parent="." unique_id=1749698481]
+
+[node name="Puzzle_1" type="Area2D" parent="PuzzleCheckpoints" unique_id=91149755]
+script = ExtResource("10_u5i4i")
+puzzle_room_path = "uid://c7a6tr3kx834x"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PuzzleCheckpoints/Puzzle_1" unique_id=884966388]
+position = Vector2(25.75, -241.5)
+shape = SubResource("RectangleShape2D_ad8vj")
+
+[node name="Puzzle_2" type="Area2D" parent="PuzzleCheckpoints" unique_id=1434688761]
+position = Vector2(385, 11)
+script = ExtResource("11_m7g1j")
+puzzle_room_path = "uid://krntgfjptyt8"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PuzzleCheckpoints/Puzzle_2" unique_id=1891414187]
+position = Vector2(361, 396)
+shape = SubResource("RectangleShape2D_qsmjc")
+
+[node name="Puzzle_3" type="Area2D" parent="PuzzleCheckpoints" unique_id=577117512]
+position = Vector2(385, 11)
+script = ExtResource("12_myb4j")
+puzzle_room_path = "uid://dstfsywrfrht4"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PuzzleCheckpoints/Puzzle_3" unique_id=1850375462]
+position = Vector2(-992.5, 203.5)
+shape = SubResource("RectangleShape2D_q2gev")
 
 [connection signal="area_entered" from="Rooms/Room_1/EnteranceDetection1" to="Rooms" method="_on_enterance_detection_1_area_entered"]
 [connection signal="area_entered" from="Rooms/Room_2/EnteranceDetection2" to="Rooms" method="_on_enterance_detection_2_area_entered"]
