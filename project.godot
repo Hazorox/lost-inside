@@ -13,7 +13,6 @@ config_version=5
 config/name="lost-inside"
 run/main_scene="uid://bc2317r56eoou"
 config/features=PackedStringArray("4.8", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [display]
 
