@@ -16,9 +16,9 @@ func _physics_process(delta: float) -> void:
 			global_position = target_pos
 			moving = false
 
-func attempt_push(dir:Vector2)->bool:
+func attempt_push(dir:Vector2)->void:
 	if moving:
-		return false
+		return
 	var space_state = get_world_2d().direct_space_state
 	var global_target = global_position + dir * tile_size
 	var target = collision_polygon.to_local(global_target)
@@ -28,10 +28,8 @@ func attempt_push(dir:Vector2)->bool:
 	query.position = global_target
 	query.exclude = [self]
 	if not Geometry2D.is_point_in_polygon(target,collision_polygon.polygon):
-		print("RETURNED FALSE")
-		return false
+		return
 	if not space_state.intersect_point(query).is_empty():
-		return false
+		return
 	target_pos = global_position + dir * tile_size
 	moving = true
-	return true
