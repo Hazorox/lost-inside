@@ -16,6 +16,7 @@ func _ready()->void:
 
 func _process(_detla:float)->void:
 	if Input.is_action_just_pressed("interact") and interactable:
+		print("INTERACTED")
 		var index := directions.find(dir)
 		# Got help from claude for this index logic
 		dir = directions[(index+1) %directions.size()]
@@ -25,7 +26,9 @@ func update_sprite()->void:
 	sprite.flip_h = dir==Vector2.LEFT
 
 func on_body_entered(body:Node2D)->void:
+	print("BODY ENTERED")
 	if body.is_in_group("player"):
+		print("NOW INTERACTABLE")
 		interactable = true
 
 func on_body_exited(body:Node2D)->void:

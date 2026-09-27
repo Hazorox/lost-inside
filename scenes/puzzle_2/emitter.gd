@@ -6,46 +6,38 @@ extends Node2D
 @export var collision_mask = 0xFFFFFF
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
+	print("GLOBAL POSITION ",global_position)
 
 func _physics_process(delta: float) -> void:
 	cast()
 
 
 func cast()->void:
-	var space := get_world_2d().direct_space_state
-	var points :Array[Vector2] = [global_position]
-	var current_pos := global_position
+	# Initialize variables before mapping the entire laser beam
+	var space = get_world_2d().direct_space_state
+	var points : Array[Vector2] = [global_position]
+	var current_pos = global_position
 	var current_dir = direction.normalized()
-	# 
-	for i in range(7):
+	
+	for i in range(8):
 		var query = PhysicsRayQueryParameters2D.create(
-			current_pos,current_pos+direction*length
+			current_pos,current_pos+current_dir*length
 		)
-		query.collide_with_areas=true
-		query.collision_mask = collision_mask
-		
 		var result = space.intersect_ray(query)
-		print(result)
+		
 		if result.is_empty():
-			points.append(current_pos+direction*length)
+			print("EMPTY RESULT CANCEL CANCEL")
 			break
+		
 		points.append(result.position)
-		var colliding_object = result.collider
-		print(result)
-		if colliding_object.is_in_group("mirror"):
-			print("COLLIDED")
-			var mirror = colliding_object.get_parent()
-			direction = mirror.dir.normalized()
-			current_pos = result.position +direction * 2.0
-		elif colliding_object.is_in_group("chest"):
-			var parent = colliding_object.get_parent()
-			parent.boom()
-			points.append(result.position)
-			break
+		if result.collider.is_in_group("mirror"):
+			current_dir = result.collider.get_parent().dir.normalized()
+			current_pos = result.position + current_dir * 2.0
+		elif result.collider.is_in_group("chest"):
+			result.collider.get_parent().boom()
 		else:
 			break
+			
 			
 	var local_points : Array[Vector2] = []
 	for p in points:
