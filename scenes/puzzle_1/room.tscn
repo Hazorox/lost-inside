@@ -1,12 +1,12 @@
 [gd_scene format=4 uid="uid://dstfsywrfrht4"]
 
 [ext_resource type="Script" uid="uid://cr73hklkodydb" path="res://scenes/puzzle_1/push_blocks.gd" id="1_gxpa8"]
-[ext_resource type="Texture2D" uid="uid://iwkw8fyrntbd" path="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png" id="2_gikfy"]
-[ext_resource type="Texture2D" uid="uid://c61nd1ilghlv" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="3_p46bv"]
-[ext_resource type="Texture2D" uid="uid://bh5e20flw02uh" path="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png" id="4_n34ga"]
-[ext_resource type="PackedScene" uid="uid://bsh36vdx3f8o2" path="res://scenes/test_player/test_player.tscn" id="5_8ulwx"]
+[ext_resource type="Texture2D" uid="uid://cpw5vflpl3q0i" path="res://assets/Dungeon/Dungeon/Tiled_files/doors_lever_chest_animation.png" id="2_gikfy"]
+[ext_resource type="Texture2D" uid="uid://blvgxwap7vypr" path="res://assets/Dungeon/Dungeon/Tiled_files/walls_floor.png" id="3_p46bv"]
+[ext_resource type="Texture2D" uid="uid://o3l1xaorysbh" path="res://assets/Dungeon/Dungeon/Tiled_files/Objects.png" id="4_n34ga"]
+[ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="5_sm3ng"]
 [ext_resource type="Script" uid="uid://dipnuxqymysho" path="res://scenes/puzzle_1/box.gd" id="6_c4y5e"]
-[ext_resource type="Texture2D" uid="uid://tupakcge075n" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="7_enrbl"]
+[ext_resource type="Texture2D" uid="uid://dcacn20u4plau" path="res://assets/Dungeon/Dungeon/PNG/Objects.png" id="7_enrbl"]
 [ext_resource type="Script" uid="uid://coc5ii88qcefx" path="res://scenes/puzzle_1/plate.gd" id="8_hgu4n"]
 [ext_resource type="Script" uid="uid://dyyp6qa3odccy" path="res://scenes/puzzle_1/door.gd" id="9_iruyk"]
 [ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="10_iedok"]
@@ -897,7 +897,7 @@ texture = ExtResource("7_enrbl")
 sources/0 = SubResource("TileSetAtlasSource_4i8mx")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nfrx5"]
-size = Vector2(20, 31)
+size = Vector2(28, 44)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0hvcy"]
 size = Vector2(39, 39)
@@ -1044,7 +1044,7 @@ texture = ExtResource("2_gikfy")
 sources/0 = SubResource("TileSetAtlasSource_3iu05")
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
-radius = 55.226807
+radius = 76.105194
 
 [node name="1" type="Node2D" unique_id=316707945]
 script = ExtResource("1_gxpa8")
@@ -1059,10 +1059,6 @@ scale = Vector2(2.5, 2.5)
 tile_map_data = PackedByteArray("AAAdAAMAAAABAAcAAAAdAAQAAAABAAgAAAAeAAMAAAACAAcAAAAeAAQAAAACAAgAAAABAAMAAAATAAQAAAABAAQAAAATAAUAAAACAAMAAAAUAAQAAAACAAQAAAAUAAUAAAAdAA0AAAATAAEAAAAdAA4AAAATAAIAAAAdAA8AAAATAAMAAAAeAA0AAAAUAAEAAAAeAA4AAAAUAAIAAAAeAA8AAAAUAAMAAAABAAgAAAATAAEAAAABAAkAAAATAAIAAAABAAoAAAATAAMAAAACAAgAAAAUAAEAAAACAAkAAAAUAAIAAAACAAoAAAAUAAMAAAAWAAMAAAATAAQAAAAWAAQAAAATAAUAAAAXAAMAAAAUAAQAAAAXAAQAAAAUAAUAAAA=")
 tile_set = SubResource("TileSet_0hvcy")
 
-[node name="TestPlayer" parent="." unique_id=508890332 groups=["player"] instance=ExtResource("5_8ulwx")]
-position = Vector2(480, 327)
-scale = Vector2(1.5, 1.5)
-
 [node name="box" type="CharacterBody2D" parent="." unique_id=224163924 groups=["box"]]
 position = Vector2(613, 308)
 collision_layer = 4
@@ -1075,7 +1071,7 @@ tile_map_data = PackedByteArray("AAAAAP//AAADAAQAAAD/////AAACAAQAAAD//wAAAAACAAU
 tile_set = SubResource("TileSet_8t61q")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="box" unique_id=177488228]
-position = Vector2(1, 2.5)
+position = Vector2(1, 9)
 shape = SubResource("RectangleShape2D_nfrx5")
 
 [node name="box2" type="CharacterBody2D" parent="." unique_id=852181657 groups=["box"]]
@@ -1154,7 +1150,8 @@ polygon = PackedVector2Array(-5, -7, 3, -82, 777, -88, 791, -18, 834, -12, 844, 
 
 [node name="door" type="Area2D" parent="." unique_id=583417467]
 position = Vector2(522, 80)
-collision_mask = 2
+collision_layer = 15
+collision_mask = 15
 script = ExtResource("9_iruyk")
 
 [node name="open_door" type="TileMapLayer" parent="door" unique_id=1920854305]
@@ -1164,6 +1161,10 @@ tile_set = SubResource("TileSet_tr8j5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=132983349]
 shape = SubResource("CircleShape2D_nfrx5")
+
+[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("5_sm3ng")]
+position = Vector2(300, 250)
+scale = Vector2(2, 2)
 
 [node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("10_iedok")]
 visible = false

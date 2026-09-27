@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://dcuef2ulnniuf" path="res://scenes/puzzle_2/chest.gd" id="2_f28th"]
 [ext_resource type="PackedScene" uid="uid://dpne2s38jkg71" path="res://scenes/puzzle_2/emitter.tscn" id="3_rv6uj"]
 [ext_resource type="Script" uid="uid://fsoef2vcadyj" path="res://scenes/puzzle_2/trap_chest.gd" id="3_smgoy"]
+[ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="6_smgoy"]
 [ext_resource type="PackedScene" uid="uid://b8segqaa7owgl" path="res://scenes/ui/escape_menu.tscn" id="7_smgoy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
@@ -106,6 +107,10 @@ collision_mask = 1
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=456161780]
 position = Vector2(923, 86)
 shape = SubResource("CircleShape2D_0hvcy")
+
+[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("6_smgoy")]
+position = Vector2(224.99998, 530.99994)
+scale = Vector2(2.5, 2.5)
 
 [node name="EscapeMenu" parent="." unique_id=1233541789 instance=ExtResource("7_smgoy")]
 visible = false

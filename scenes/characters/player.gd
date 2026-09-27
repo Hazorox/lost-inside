@@ -35,6 +35,25 @@ func _process(_delta: float) -> void:
 			set_walking_animation()
 		else:
 			set_idle_animation()
+	if Input.is_action_just_pressed("interact"):
+		# Area to scan for boxes to & from
+		var from = global_position
+		
+		# Uhhh idk why 56 I got some help from Claude here
+		var to = global_position + heading * 56
+		# Setting up the ray detection and excluding the node itself from the detection
+		var space_state = get_world_2d().direct_space_state
+		var query := PhysicsRayQueryParameters2D.create(from, to)
+		
+		# restrict to objects only so bounds dont affect
+		query.collision_mask = (1<<2)
+		query.exclude = [self]
+		
+		# Attempting to push if its a box
+		var result := space_state.intersect_ray(query)
+		if not result.is_empty():
+			if result.collider.is_in_group("box"):
+				result.collider.attempt_push(heading)
 
 func is_player_walking() -> bool:
 	if player.velocity != Vector2.ZERO:

@@ -2,7 +2,7 @@ extends Node2D
 
 @export var direction = Vector2.UP
 @onready var line := $Line2D
-@export var length := 800.0
+@export var length := 1500.0
 @export var collision_mask = 0xFFFFFF
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -19,7 +19,7 @@ func cast()->void:
 	var current_pos = global_position
 	var current_dir = direction.normalized()
 	
-	for i in range(8):
+	for i in range(500):
 		var query = PhysicsRayQueryParameters2D.create(
 			current_pos,current_pos+current_dir*length
 		)

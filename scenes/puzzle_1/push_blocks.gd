@@ -10,8 +10,8 @@ func _ready() -> void:
 		plate.unpressed.connect(plate_unpressed)
 
 func _process(_delta: float) -> void:
-	door.activated = plates_pressed==3
 	door.visible= plates_pressed==3
+
 func plate_pressed()->void:
 	plates_pressed+=1
 func plate_unpressed()->void:
