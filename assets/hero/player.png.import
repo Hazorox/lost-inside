@@ -2,31 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:assets/hero/player.png.import
-uid="uid://2jmcumqf1vs3"
+uid="uid://pa7jkpyb1bvg"
 path="res://.godot/imported/player.png-b568033a476d63c77b7da444ba8be9c9.ctex"
-========
-uid="uid://cdjht38wnooxp"
-path="res://.godot/imported/ALL.png-58301a01653107342f2e7241404ab053.ctex"
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/ALL.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/hero/player.png.import
 source_file="res://assets/hero/player.png"
 dest_files=["res://.godot/imported/player.png-b568033a476d63c77b7da444ba8be9c9.ctex"]
-========
-source_file="res://assets/Dungeon/Monsters Pack/ALL.png"
-dest_files=["res://.godot/imported/ALL.png-58301a01653107342f2e7241404ab053.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Monsters Pack/ALL.png.import
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
+compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -35,6 +26,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
+mipmaps/preserve_alpha_test_coverage=false
+mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0

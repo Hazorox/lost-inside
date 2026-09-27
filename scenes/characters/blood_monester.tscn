@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://tjv8pjfrmpb0"]
+
+[ext_resource type="PackedScene" uid="uid://cv5jbf1am4jr8" path="res://scenes/characters/demon.tscn" id="1_v1yb0"]
+[ext_resource type="Texture2D" uid="uid://dmirxjmqhrnwf" path="res://assets/Monsters/Blood Monster_A/Blood Monster_A with shadows/Blood Monster_A.png" id="2_boxg1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v1yb0"]
+size = Vector2(16.5, 16)
+
+[node name="BloodMonester" unique_id=1267231545 instance=ExtResource("1_v1yb0")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=2061930069]
+texture = ExtResource("2_boxg1")
+
+[node name="CollisionShape2D" parent="DamageEmitter" parent_id_path=PackedInt32Array(1302347573) index="0" unique_id=203393215]
+position = Vector2(17.5, -9)
+shape = SubResource("RectangleShape2D_v1yb0")

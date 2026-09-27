@@ -2,30 +2,22 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgkroghw2m4lt"
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_mud_4.png.import
+uid="uid://bh1p50w6xqf17"
 path="res://.godot/imported/spr_mud_4.png-06ec406effc1cbc54ef6493ee89c9016.ctex"
-========
-path="res://.godot/imported/spr_mud_4.png-1a1adfcfba72e3cb99c77724f2e7642d.ctex"
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_mud_4.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:assets/Haunted Garden Grounds/spr_mud_4.png.import
 source_file="res://assets/Haunted Garden Grounds/spr_mud_4.png"
 dest_files=["res://.godot/imported/spr_mud_4.png-06ec406effc1cbc54ef6493ee89c9016.ctex"]
-========
-source_file="res://assets/Dungeon/Haunted Garden Grounds/spr_mud_4.png"
-dest_files=["res://.godot/imported/spr_mud_4.png-1a1adfcfba72e3cb99c77724f2e7642d.ctex"]
->>>>>>>> origin/main:assets/Dungeon/Haunted Garden Grounds/spr_mud_4.png.import
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
+compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
@@ -34,6 +26,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
+mipmaps/preserve_alpha_test_coverage=false
+mipmaps/alpha_test_threshold=0.5
 roughness/mode=0
 roughness/src_normal=""
 process/channel_remap/red=0
