@@ -1,11 +1,11 @@
-# Lost Inside ( A Lore-ful Dungoen )
+# Lost Inside ( A Lore-ful Dungeon )
 ## A game by [Hazoro](https://github.com/hazorox) - [AboEl5yr](https://github.com/AdhamMohamedKhairy) - [Vii](https://github.com/vii-abdullatif)
 Live at [Itch.io](https://hazoro.itch.io/lost-inside)
 
 # Plot
 You, Alex (you don't choose how you're born...), are experiencing intense depression and anxiety.
 
-That one day, you don't wake up from sleep. You hallucinate into a dungeon where you fight monsters, navigate through puzzles to reach your destination, The Tree of Life. 
+That one day, you don't wake up from sleep. You hallucinate into a dungoen where you fight monsters, navigate through puzzles to reach your destination, The Tree of Life. 
 
 The Tree of Life garauntess happiness and mental wellness...
 
@@ -26,3 +26,9 @@ Then open with Godot 4.7
 You firstly spawn into a really huge maze that leads into multiple other rooms and stuff, navigate your way to the tree of life !!
 
 # Gallery
+![plates puzzle](image-1.png)
+![laser puzzle](image.png)
+
+# AI - Declaration (Hazoro)
+- Help with ray intersections logic whilst using it for the first time
+- Guide on how to manage the laser reflection using Vector2
