@@ -1188,6 +1188,9 @@ size = Vector2(54, 122)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q2gev"]
 size = Vector2(161, 183)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_onkbk"]
+radius = 50.0
+
 [node name="Maze" type="Node2D" unique_id=474164409]
 script = ExtResource("1_6bsp5")
 
@@ -1673,8 +1676,15 @@ puzzle_room_path = "uid://dstfsywrfrht4"
 position = Vector2(-992.5, 203.5)
 shape = SubResource("RectangleShape2D_q2gev")
 
+[node name="ExitGate" type="Area2D" parent="." unique_id=640620890]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ExitGate" unique_id=1182878600]
+position = Vector2(1779, 763)
+shape = SubResource("CircleShape2D_onkbk")
+
 [connection signal="area_entered" from="Rooms/Room_1/EnteranceDetection1" to="Rooms" method="_on_enterance_detection_1_area_entered"]
 [connection signal="area_entered" from="Rooms/Room_2/EnteranceDetection2" to="Rooms" method="_on_enterance_detection_2_area_entered"]
 [connection signal="area_entered" from="Rooms/Room_3/EnteranceDetection3" to="Rooms" method="_on_enterance_detection_3_area_entered"]
 [connection signal="area_entered" from="Rooms/Room_4/EnteranceDetection4" to="Rooms" method="_on_enterance_detection_4_area_entered"]
 [connection signal="area_entered" from="Rooms/Room_4/EnteranceDetection5" to="Rooms" method="_on_enterance_detection_5_area_entered"]
+[connection signal="area_entered" from="ExitGate" to="." method="_on_exit_gate_area_entered"]

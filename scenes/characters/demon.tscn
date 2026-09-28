@@ -143,6 +143,10 @@ height = 12.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wdr8o"]
 size = Vector2(36, 22.5)
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_onkbk"]
+radius = 6.0
+height = 20.0
+
 [node name="Demon" type="CharacterBody2D" unique_id=1267231545]
 scale = Vector2(2, 2)
 script = ExtResource("1_476gb")
@@ -179,6 +183,13 @@ debug_color = Color(0.80077064, 0.42066702, 7.70092e-07, 0.41960785)
 wait_time = 0.5
 autostart = true
 
+[node name="DamageReciever" type="Area2D" parent="." unique_id=1359166455]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DamageReciever" unique_id=93444520]
+position = Vector2(1.5, -10.5)
+shape = SubResource("CapsuleShape2D_onkbk")
+
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
 [connection signal="area_entered" from="AttackRange" to="." method="_on_attack_range_area_entered"]
 [connection signal="area_exited" from="AttackRange" to="." method="_on_attack_range_area_exited"]
+[connection signal="area_entered" from="DamageReciever" to="." method="_on_damage_reciever_area_entered"]

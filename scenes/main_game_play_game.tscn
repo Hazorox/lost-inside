@@ -12,14 +12,14 @@ script = ExtResource("1_du31t")
 [node name="Player" parent="Maze" index="2" unique_id=1071187316]
 position = Vector2(-680, 329.99997)
 
-[node name="Camera2D" parent="Maze/Player" index="5" unique_id=156019664]
-position_smoothing_enabled = false
-
 [node name="HUD" parent="Maze/Player" index="6" unique_id=1355866746 instance=ExtResource("3_yc1pi")]
 offset_left = -83.33332
 offset_top = -54.666653
 offset_right = -83.33332
 offset_bottom = -54.666653
+
+[node name="Camera2D" parent="Maze/Player" index="7" unique_id=156019664]
+position_smoothing_enabled = false
 
 [node name="Puzzles" type="Node2D" parent="." unique_id=1798318412]
 

@@ -71,3 +71,8 @@ func _on_attack_range_area_entered(area: Area2D) -> void:
 		is_attacking = true
 		velocity = Vector2.ZERO
 		animation_player.play("attacking_" + str(randi_range(1,2)))
+
+
+func _on_damage_reciever_area_entered(area: Area2D) -> void:
+	if area.is_in_group("player_damage_emitter"):
+		queue_free()

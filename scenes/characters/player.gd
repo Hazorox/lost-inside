@@ -3,8 +3,19 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 
+# Local position of the attack hitbox for each facing direction.
+# LEFT uses the same value as RIGHT because the whole DamageEmitter is mirrored.
+const ATTACK_OFFSETS := {
+	Vector2.UP: Vector2(-1, -17),
+	Vector2.RIGHT: Vector2(12, -5),
+	Vector2.LEFT: Vector2(12, -5),
+	Vector2.DOWN: Vector2(0, 2),
+}
+
 @onready var player_sprite: Sprite2D = $Sprite2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var damage_emitter: Area2D = $DamageEmitter
+@onready var collision_shape_2d: CollisionShape2D = $DamageEmitter/CollisionShape2D
 
 enum State {
 	IDLE,
@@ -76,13 +87,21 @@ func is_player_attacking() -> bool:
 
 func update_animation() -> void:
 	var is_attacking = animation_player.is_playing() and animation_player.current_animation.ends_with("attack")
-	if is_player_attacking() and not is_attacking:
-		set_hitting_animation()
-	elif not is_attacking:
-		if is_player_walking():
-			set_walking_animation()
-		else:
-			set_idle_animation()
+	if is_attacking:
+		return
+	if is_player_attacking():
+		start_attack()
+	elif is_player_walking():
+		set_walking_animation()
+	else:
+		set_idle_animation()
+
+
+func start_attack() -> void:
+	# Move the hitbox to the side the player is facing, then enable it
+	collision_shape_2d.position = ATTACK_OFFSETS[heading]
+	collision_shape_2d.set_deferred("disabled", false)
+	set_hitting_animation()
 
 
 func set_idle_animation() -> void:
@@ -118,10 +137,17 @@ func set_hitting_animation() -> void:
 func flip_sprites() -> void:
 	if heading == Vector2.RIGHT:
 		player_sprite.flip_h = false
+		damage_emitter.scale.x = 1
 	elif heading == Vector2.LEFT:
 		player_sprite.flip_h = true
+		damage_emitter.scale.x = -1
 
 
 func _on_damage_reciever_area_entered(area: Area2D) -> void:
 	if area.is_in_group("damage_emitter"):
 		Globals.player_lives -= 1
+
+
+func _on_animation_player_animation_finished(anim_name: StringName) -> void:
+	if anim_name.ends_with("attack"):
+		collision_shape_2d.set_deferred("disabled", true)
