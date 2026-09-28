@@ -13,9 +13,7 @@ func _ready()->void:
 
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("interact") and interactable and door_ready:
-		print("MAWWWWWWW")
-		get_tree().change_scene_to_file("res://scenes/5/room.tscn")
-
+		get_parent().finished.emit()
 func boom()->void:
 	# DIALOG U WERE GIVEN THE KEY
 	tilemap.visible=false
