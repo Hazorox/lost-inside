@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi7pt3i7rxemn"
-path="res://.godot/imported/layer order, page ONE-hand 3 (shield).png-a54a8324dc854576fe8b80906a8b1bfb.ctex"
+path="res://.godot/imported/layer order, page ONE-hand 3 (shield).png-113c18481639c0fb4dce5a6e2f614339.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png"
-dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (shield).png-a54a8324dc854576fe8b80906a8b1bfb.ctex"]
+source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/guides/layer order, page ONE-hand 3 (shield).png"
+dest_files=["res://.godot/imported/layer order, page ONE-hand 3 (shield).png-113c18481639c0fb4dce5a6e2f614339.ctex"]
 
 [params]
 

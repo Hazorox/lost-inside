@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cylw4o3f8s1k2"
-path="res://.godot/imported/Monster02-2.png-0634639f3a33c619c690edbd622096a7.ctex"
+path="res://.godot/imported/Monster02-2.png-b3128bb3ec441b9c0068506869e5c8c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/Monsters Pack/Monster02-2.png"
-dest_files=["res://.godot/imported/Monster02-2.png-0634639f3a33c619c690edbd622096a7.ctex"]
+source_file="res://assets/Dungeon/Monsters Pack/Monster02-2.png"
+dest_files=["res://.godot/imported/Monster02-2.png-b3128bb3ec441b9c0068506869e5c8c8.ctex"]
 
 [params]
 

@@ -4,13 +4,16 @@
 [ext_resource type="PackedScene" uid="uid://bc2317r56eoou" path="res://scenes/temp/maze.tscn" id="1_ge36q"]
 [ext_resource type="PackedScene" uid="uid://dtqjirmegt1f" path="res://scenes/characters/hud.tscn" id="3_yc1pi"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yc1pi"]
+size = Vector2(54, 180)
+
 [node name="MainGamePlayGame" type="Node" unique_id=1879917476]
 script = ExtResource("1_du31t")
 
 [node name="Maze" parent="." unique_id=474164409 instance=ExtResource("1_ge36q")]
 
 [node name="Player" parent="Maze" index="2" unique_id=1071187316]
-position = Vector2(-680, 329.99997)
+position = Vector2(1532.0001, 851)
 
 [node name="HUD" parent="Maze/Player" index="6" unique_id=1355866746 instance=ExtResource("3_yc1pi")]
 offset_left = -83.33332
@@ -20,6 +23,22 @@ offset_bottom = -54.666653
 
 [node name="Camera2D" parent="Maze/Player" index="7" unique_id=156019664]
 position_smoothing_enabled = false
+
+[node name="CollisionShape2D" parent="Maze/Rooms/Room_2/EnteranceDetection2" parent_id_path=PackedInt32Array(474164409, 1816315275) index="0" unique_id=1323131490]
+position = Vector2(-475, 75)
+
+[node name="Puzzle_2" parent="Maze/PuzzleCheckpoints" parent_id_path=PackedInt32Array(474164409, 1749698481) index="1" unique_id=1434688761]
+puzzle_room_path = "uid://dstfsywrfrht4"
+
+[node name="CollisionShape2D" parent="Maze/PuzzleCheckpoints/Puzzle_2" index="0" unique_id=1891414187]
+position = Vector2(712, 359)
+shape = SubResource("RectangleShape2D_yc1pi")
+
+[node name="Puzzle_3" parent="Maze/PuzzleCheckpoints" parent_id_path=PackedInt32Array(474164409, 1749698481) index="2" unique_id=577117512]
+puzzle_room_path = "uid://krntgfjptyt8"
+
+[node name="CollisionShape2D" parent="Maze/ExitGate" parent_id_path=PackedInt32Array(474164409, 640620890) index="0" unique_id=1182878600]
+position = Vector2(1788, 766)
 
 [node name="Puzzles" type="Node2D" parent="." unique_id=1798318412]
 

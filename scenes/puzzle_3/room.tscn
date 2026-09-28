@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://dpne2s38jkg71" path="res://scenes/puzzle_2/emitter.tscn" id="3_eax5o"]
 [ext_resource type="Script" uid="uid://dcuef2ulnniuf" path="res://scenes/puzzle_2/chest.gd" id="4_0ksr6"]
 [ext_resource type="PackedScene" uid="uid://c6t34tvx2bn7l" path="res://scenes/characters/player.tscn" id="5_ee6vp"]
+[ext_resource type="Script" uid="uid://dyyp6qa3odccy" path="res://scenes/puzzle_1/door.gd" id="6_0ksr6"]
+[ext_resource type="Script" uid="uid://cqd68f26te2id" path="res://scenes/puzzle_3/camera_2d.gd" id="8_ee6vp"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nfrx5"]
 radius = 78.025635
@@ -76,6 +78,7 @@ position = Vector2(-15.600006, 11.999996)
 shape = SubResource("CircleShape2D_uqyoq")
 
 [node name="door" type="Area2D" parent="." unique_id=1398973169]
+script = ExtResource("6_0ksr6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="door" unique_id=307946268]
 position = Vector2(923, 86)
@@ -86,10 +89,6 @@ scale = Vector2(2.5, 2.5)
 tile_map_data = PackedByteArray("AAAWAAEAAwAAAAQAAAAWAAIAAwAAAAUAAAAXAAEAAwABAAQAAAAXAAIAAwABAAUAAAA=")
 tile_set = ExtResource("1_7kcmu")
 
-[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("5_ee6vp")]
-position = Vector2(631.99994, 652.99994)
-scale = Vector2(2.5, 2.5)
-
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=351950109]
 position = Vector2(45, 122)
 metadata/_edit_lock_ = true
@@ -98,3 +97,11 @@ metadata/_edit_lock_ = true
 build_mode = 1
 polygon = PackedVector2Array(-6, 6, 1189, 3, 1190, 560, -6, 558)
 metadata/_edit_lock_ = true
+
+[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("5_ee6vp")]
+position = Vector2(790.99994, 235.99998)
+scale = Vector2(1.4999999, 1.4999999)
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1390383170]
+position_smoothing_enabled = true
+script = ExtResource("8_ee6vp")

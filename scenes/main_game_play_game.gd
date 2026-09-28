@@ -14,7 +14,7 @@ func switch_to_puzzle(puzzle_path: String, trigger_tile: Area2D) -> void:
 	if puzzle_resource:
 		current_puzzle_instance = puzzle_resource.instantiate()
 		puzzles_container.add_child(current_puzzle_instance)
-		current_puzzle_instance.connect("puzzle_completed", _on_puzzle_completed)
+		current_puzzle_instance.connect("finished", _on_puzzle_completed)
 
 func _on_puzzle_completed() -> void:
 	if current_puzzle_instance:

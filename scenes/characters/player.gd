@@ -12,6 +12,7 @@ const ATTACK_OFFSETS := {
 	Vector2.DOWN: Vector2(0, 2),
 }
 
+@onready var camera: Camera2D = $Camera2D
 @onready var player_sprite: Sprite2D = $Sprite2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 @onready var damage_emitter: Area2D = $DamageEmitter
@@ -26,6 +27,10 @@ enum State {
 @export var heading: Vector2 = Vector2.DOWN
 var state := State.IDLE
 
+func _ready() -> void:
+	camera.make_current()
+	camera.position_smoothing_enabled = true
+	camera.position_smoothing_speed = 8.0
 
 func _physics_process(delta: float) -> void:
 	var direction_y := Input.get_axis("up", "down")

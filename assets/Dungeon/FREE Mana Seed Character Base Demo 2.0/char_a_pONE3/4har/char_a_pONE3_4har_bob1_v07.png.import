@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mal2uei5yivi"
-path="res://.godot/imported/char_a_pONE3_4har_bob1_v07.png-b2f19ca5ee7bbc097f3c6c8aabde642e.ctex"
+path="res://.godot/imported/char_a_pONE3_4har_bob1_v07.png-2a5df4d9a93b5a21c593f49818819606.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/4har/char_a_pONE3_4har_bob1_v07.png"
-dest_files=["res://.godot/imported/char_a_pONE3_4har_bob1_v07.png-b2f19ca5ee7bbc097f3c6c8aabde642e.ctex"]
+source_file="res://assets/Dungeon/FREE Mana Seed Character Base Demo 2.0/char_a_pONE3/4har/char_a_pONE3_4har_bob1_v07.png"
+dest_files=["res://.godot/imported/char_a_pONE3_4har_bob1_v07.png-2a5df4d9a93b5a21c593f49818819606.ctex"]
 
 [params]
 

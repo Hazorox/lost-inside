@@ -7,7 +7,7 @@ func _ready() -> void:
 	start_btn2.pressed.connect(on_pressed2)
 
 func on_pressed()->void:
-	get_tree().change_scene_to_file("res://scenes/temp/maze.tscn")
+	get_tree().change_scene_to_file("res://scenes/main_game_play_game.tscn")
 
 func on_pressed2()->void:
 	get_tree().change_scene_to_file("res://scenes/envy (math)/envy.tscn")
