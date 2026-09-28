@@ -160,6 +160,7 @@ layer_0/tile_data = PackedInt32Array(0, 589824, 5, 1, 720896, 6, 65536, 524288, 
 
 [node name="door" parent="." unique_id=552211073 instance=ExtResource("2_f612h")]
 position = Vector2(632, 90)
+scene = "res://scenes/main_menu/main_menu.tscn"
 
 [node name="Player" parent="." unique_id=1071187316 instance=ExtResource("3_lgd7y")]
 top_level = true

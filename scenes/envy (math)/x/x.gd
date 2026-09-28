@@ -27,7 +27,9 @@ func hit():
 	velocity = Vector2.ZERO
 	$AnimatedSprite2D.play("death")
 	await $AnimatedSprite2D.animation_finished
-	get_tree().change_scene_to_file("res://scenes/temp/hall.tscn")
+	if not is_inside_tree():
+		return
+	get_tree().change_scene_to_file("res://scenes/game_over/gameOver.tscn")
 	
 func time_up():
 	set_physics_process(false)

@@ -55,7 +55,6 @@ text = "*"
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_colors/default_color = Color(0.17254902, 0.1882353, 0.18039216, 0.9098039)
-theme_override_fonts/normal_font = ExtResource("1_3cdh6")
 theme_override_font_sizes/normal_font_size = 45
 text = "PLACEHOLDER TEXT: LOTFY U HAVE TO LEARN WEB DEV"
 

@@ -38,13 +38,13 @@ func shoot():
 		get_tree().current_scene.add_child(proj)
 		proj.global_position = global_position
 		proj.direction = (x.global_position - global_position).normalized()
-		proj.speed = GameManager.current
+		proj.speed = GameManager.current * 0.6
 		
 func inc_speed(new: float):
-	rate = max(0.2, base - (new - GameManager.base)*0.01)
+	rate = max(0.6, base - (new - GameManager.base)*0.05)
 
 func time_up():
 	set_physics_process(false)
 	$AnimatedSprite2D.play("death")
 	await $AnimatedSprite2D.animation_finished
-	get_tree().change_scene_to_file("res://scenes/hall/hall.tscn")
+	get_tree().change_scene_to_file("res://scenes/temp/hall.tscn")

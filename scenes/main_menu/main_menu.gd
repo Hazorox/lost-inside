@@ -1,12 +1,13 @@
 extends Control
 @onready var start_btn : Button = $Button
+@onready var start_btn2 : Button = $Button2
 
 func _ready() -> void:
 	start_btn.pressed.connect(on_pressed)
-
-func _input(event: InputEvent) -> void:
-	if event is InputEventKey :
-		start_btn.grab_focus()
+	start_btn2.pressed.connect(on_pressed2)
 
 func on_pressed()->void:
 	get_tree().change_scene_to_file("res://scenes/main/main.tscn")
+
+func on_pressed2()->void:
+	get_tree().change_scene_to_file("res://scenes/envy (math)/envy.tscn")

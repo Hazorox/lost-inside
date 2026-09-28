@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://cfly4qvv64dqx" path="res://scenes/main_menu/main_menu.gd" id="1_0ebjn"]
 [ext_resource type="FontFile" uid="uid://df24u1ivi2cvi" path="res://assets/title.ttf" id="1_fsom3"]
+[ext_resource type="Texture2D" uid="uid://dn3e8nruqha5b" path="res://assets/math/x/x.png" id="3_3ovsr"]
+[ext_resource type="Texture2D" uid="uid://cn825f880vbe" path="res://assets/math/theta/theta.png" id="4_5seab"]
+[ext_resource type="Texture2D" uid="uid://bf6haqme6lkkv" path="res://assets/math/derivative.png" id="5_4xg86"]
+[ext_resource type="Texture2D" uid="uid://biy5jdkudjdf7" path="res://assets/math/integral.png" id="6_thkx5"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_nfrx5"]
 font = ExtResource("1_fsom3")
@@ -107,10 +111,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -152.99997
-offset_top = 74.0
-offset_right = 51.0
-offset_bottom = 147.0
+offset_left = -445.99997
+offset_top = 86.0
+offset_right = -241.99997
+offset_bottom = 159.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(1.5, 1.5)
@@ -124,3 +128,52 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_wem23")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ob46e")
 theme_override_styles/focus = SubResource("StyleBoxFlat_uqeha")
 text = "START"
+
+[node name="Button2" type="Button" parent="." unique_id=1609062899]
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 106.0
+offset_top = 83.0
+offset_right = 310.0
+offset_bottom = 156.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.5, 1.5)
+theme_override_colors/font_color = Color(0.94509804, 0.6117647, 0, 1)
+theme_override_colors/font_focus_color = Color(1, 0.6901961, 0.26666668, 1)
+theme_override_colors/font_pressed_color = Color(0.9999997, 0.74590504, 0.43090585, 1)
+theme_override_colors/font_hover_color = Color(1, 0.6901961, 0.26666668, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/normal = SubResource("StyleBoxFlat_q4bkd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wem23")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ob46e")
+theme_override_styles/focus = SubResource("StyleBoxFlat_uqeha")
+text = "Warm Up"
+
+[node name="X" type="Sprite2D" parent="." unique_id=1187761222]
+position = Vector2(705, 408)
+rotation = -0.47290218
+scale = Vector2(1.75, 1.75)
+texture = ExtResource("3_3ovsr")
+
+[node name="Theta" type="Sprite2D" parent="." unique_id=1533541280]
+position = Vector2(992.55597, 386.73938)
+rotation = -2.5681322
+scale = Vector2(2.8634672, 2.8634672)
+texture = ExtResource("4_5seab")
+
+[node name="Derivative" type="Sprite2D" parent="." unique_id=358056244]
+position = Vector2(1136, 516)
+rotation = 0.33881328
+scale = Vector2(2.765625, 2.765625)
+texture = ExtResource("5_4xg86")
+
+[node name="Integral" type="Sprite2D" parent="." unique_id=1989155050]
+position = Vector2(829, 580)
+scale = Vector2(2.546875, 2.546875)
+texture = ExtResource("6_thkx5")
