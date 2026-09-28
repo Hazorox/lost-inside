@@ -1059,9 +1059,10 @@ scale = Vector2(2.5, 2.5)
 tile_map_data = PackedByteArray("AAAdAAMAAAABAAcAAAAdAAQAAAABAAgAAAAeAAMAAAACAAcAAAAeAAQAAAACAAgAAAABAAMAAAATAAQAAAABAAQAAAATAAUAAAACAAMAAAAUAAQAAAACAAQAAAAUAAUAAAAdAA0AAAATAAEAAAAdAA4AAAATAAIAAAAdAA8AAAATAAMAAAAeAA0AAAAUAAEAAAAeAA4AAAAUAAIAAAAeAA8AAAAUAAMAAAABAAgAAAATAAEAAAABAAkAAAATAAIAAAABAAoAAAATAAMAAAACAAgAAAAUAAEAAAACAAkAAAAUAAIAAAACAAoAAAAUAAMAAAAWAAMAAAATAAQAAAAWAAQAAAATAAUAAAAXAAMAAAAUAAQAAAAXAAQAAAAUAAUAAAA=")
 tile_set = SubResource("TileSet_0hvcy")
 
-[node name="TestPlayer" parent="." unique_id=508890332 groups=["player"] instance=ExtResource("5_8ulwx")]
-position = Vector2(480, 327)
-scale = Vector2(1.5, 1.5)
+[node name="Player" parent="." unique_id=1071187316 instance=ExtResource("6_ioy5d")]
+position = Vector2(370, 443)
+collision_layer = 2
+collision_mask = 5
 
 [node name="box" type="CharacterBody2D" parent="." unique_id=224163924 groups=["box"]]
 position = Vector2(613, 308)
