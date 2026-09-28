@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://c7a6tr3kx834x"]
 
 [ext_resource type="TileSet" uid="uid://bon1hao5ahgth" path="res://resources/base.tres" id="1_7kcmu"]
+[ext_resource type="Script" uid="uid://b0j7esrewexvr" path="res://scenes/puzzle_3/room.gd" id="1_eax5o"]
 [ext_resource type="PackedScene" uid="uid://br0585nooeb1u" path="res://scenes/puzzle_2/mirror.tscn" id="2_ynpfd"]
 [ext_resource type="PackedScene" uid="uid://dpne2s38jkg71" path="res://scenes/puzzle_2/emitter.tscn" id="3_eax5o"]
 [ext_resource type="Script" uid="uid://dcuef2ulnniuf" path="res://scenes/puzzle_2/chest.gd" id="4_0ksr6"]
@@ -15,6 +16,7 @@ radius = 78.025635
 radius = 95.0
 
 [node name="Room" type="Node2D" unique_id=482827061]
+script = ExtResource("1_eax5o")
 
 [node name="base" type="TileMapLayer" parent="." unique_id=1308441650]
 scale = Vector2(2.5, 2.5)
@@ -33,9 +35,6 @@ tile_set = ExtResource("1_7kcmu")
 
 [node name="open" type="TileMapLayer" parent="Area2D" unique_id=496634398]
 
-[node name="Mirror" parent="." unique_id=1778676005 instance=ExtResource("2_ynpfd")]
-position = Vector2(1186, 174)
-
 [node name="Mirror2" parent="." unique_id=1526897892 instance=ExtResource("2_ynpfd")]
 position = Vector2(110, 176)
 
@@ -44,6 +43,9 @@ position = Vector2(233, 271)
 
 [node name="Mirror6" parent="." unique_id=1163991893 instance=ExtResource("2_ynpfd")]
 position = Vector2(930, 469)
+
+[node name="Mirror9" parent="." unique_id=1778676005 instance=ExtResource("2_ynpfd")]
+position = Vector2(1178, 182)
 
 [node name="Mirror8" parent="." unique_id=368833549 instance=ExtResource("2_ynpfd")]
 position = Vector2(467, 469)
@@ -87,3 +89,12 @@ tile_set = ExtResource("1_7kcmu")
 [node name="Player" parent="." unique_id=1071187316 instance=ExtResource("5_ee6vp")]
 position = Vector2(631.99994, 652.99994)
 scale = Vector2(2.5, 2.5)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=351950109]
+position = Vector2(45, 122)
+metadata/_edit_lock_ = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=1427775191]
+build_mode = 1
+polygon = PackedVector2Array(-6, 6, 1189, 3, 1190, 560, -6, 558)
+metadata/_edit_lock_ = true

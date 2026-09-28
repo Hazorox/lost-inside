@@ -1,5 +1,5 @@
 extends Node2D
-
+signal finished
 var plates_pressed = 0
 @onready var door : Area2D = $door
 @onready var plates : Array[Area2D] = [$plate,$plate2,$plate3]
