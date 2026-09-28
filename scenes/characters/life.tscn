@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cvfraguwf3tlt"]
+
+[ext_resource type="Texture2D" uid="uid://bvjke44l4rjan" path="res://assets/props/life1.png" id="1_btc15"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onkbk"]
+atlas = ExtResource("1_btc15")
+region = Rect2(4, 8, 17, 15)
+
+[node name="Life" type="Sprite2D" unique_id=1839635746]
+texture = SubResource("AtlasTexture_onkbk")

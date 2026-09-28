@@ -43,6 +43,7 @@ folder_colors={
 
 player=""
 damage_emitter=""
+player_damage_emitter=""
 
 [gui]
 

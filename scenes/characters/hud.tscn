@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://dtqjirmegt1f"]
+
+[ext_resource type="PackedScene" uid="uid://cvfraguwf3tlt" path="res://scenes/characters/life.tscn" id="1_h4phu"]
+[ext_resource type="Script" uid="uid://62ls4eq7myp5" path="res://scenes/characters/hud.gd" id="1_ty0wd"]
+
+[node name="HUD" type="Control" unique_id=1355866746]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 2.0
+offset_right = 4.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ty0wd")
+
+[node name="Life" parent="." unique_id=1839635746 instance=ExtResource("1_h4phu")]
+position = Vector2(9, 8)
+
+[node name="Life2" parent="." unique_id=1775803580 instance=ExtResource("1_h4phu")]
+position = Vector2(26, 8)
+
+[node name="Life3" parent="." unique_id=1038732954 instance=ExtResource("1_h4phu")]
+position = Vector2(43, 8)
+
+[node name="Life4" parent="." unique_id=1177884790 instance=ExtResource("1_h4phu")]
+position = Vector2(60, 8)
+
+[node name="Life5" parent="." unique_id=198226805 instance=ExtResource("1_h4phu")]
+position = Vector2(76, 8)
+
+[node name="Life6" parent="." unique_id=258696881 instance=ExtResource("1_h4phu")]
+position = Vector2(93, 8)
+
+[node name="Life7" parent="." unique_id=183014496 instance=ExtResource("1_h4phu")]
+position = Vector2(110, 8)
+
+[node name="Life8" parent="." unique_id=2001790908 instance=ExtResource("1_h4phu")]
+position = Vector2(127, 8)
+
+[node name="Life9" parent="." unique_id=32916181 instance=ExtResource("1_h4phu")]
+position = Vector2(144, 8)
+
+[node name="Life10" parent="." unique_id=1412831384 instance=ExtResource("1_h4phu")]
+position = Vector2(161, 8)
