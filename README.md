@@ -30,6 +30,10 @@ You firstly spawn into a really huge maze that leads into multiple other rooms a
 ![plates puzzle](image-1.png)
 ![laser puzzle](image.png)
 
+# IMPORTANT NOTE
+- There is a bug with treasure spawning, if met, please refresh the website ( untill it's solved )
+- escape menu had a bug and will be added further on
+
 # AI - Declaration (Hazoro)
 - Help with ray intersections logic whilst using it for the first time
 - Guide on how to manage the laser reflection using Vector2
